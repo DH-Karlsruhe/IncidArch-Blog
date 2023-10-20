@@ -1,6 +1,7 @@
-# Team Blog - IncidArch ⛑️
+# Team Blog ⛑️
 
 Für unsere wöchentlichen Team-Blog-Beiträge.
+Alle bisherigen Posts werden hier aufgelistet..
 
 ## Posts
 [Erster Post](posts/00_initial_post)
@@ -9,7 +10,7 @@ Für unsere wöchentlichen Team-Blog-Beiträge.
         repo="DH-Karlsruhe/IncidArch-Blog"
         issue-term="pathname"
         label="🪀📣"
-        theme="github-dark-orange"
+        theme="preferred-color-scheme"
         crossorigin="anonymous"
         async>
 </script>

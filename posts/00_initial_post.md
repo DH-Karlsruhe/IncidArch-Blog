@@ -29,7 +29,7 @@ Probiert es doch gleich mal aus 😊👇 (ganz unten auf der Seite)
         repo="DH-Karlsruhe/IncidArch-Blog"
         issue-term="pathname"
         label="🪀📣"
-        theme="github-dark-orange"
+        theme="preferred-color-scheme"
         crossorigin="anonymous"
         async>
 </script>
