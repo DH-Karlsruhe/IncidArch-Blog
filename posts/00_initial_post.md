@@ -19,10 +19,11 @@ Durch diese App ist es möglich, mit einem GitHub-Account Kommentare unter unser
 Probiert es doch gleich mal aus 😊👇 (ganz unten auf der Seite)
 
 ## Tech Stack
-- [Typescript](https://www.typescriptlang.org/)
+- [Typescript](https://www.typescriptlang.org/) (als einzige Sprache)
+- [Deno](https:/deno.land) (modern TS Runtime)
 - [React](https://react.dev/) (Frontend)
-- [Docker](https://www.docker.com/)
-- [GitHub](https://www.github.com/)
+- [Docker](https://www.docker.com/) (Deployment)
+- [GitHub](https://www.github.com/) (Development & PM)
 
 
 <script src="https://utteranc.es/client.js"
