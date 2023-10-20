@@ -14,4 +14,3 @@ Alle bisherigen Posts werden hier aufgelistet..
         crossorigin="anonymous"
         async>
 </script>
-</script>
