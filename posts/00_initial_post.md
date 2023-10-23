@@ -27,7 +27,7 @@ Probiert es doch gleich mal aus 😊👇 (ganz unten auf der Seite)
 - [GitHub](https://www.github.com/) (Development & PM)
 
 ---
-Nächste Woche: [Erster Post _(KW42)_](posts/00_initial_post)  
+Nächste Woche: [Erster Post _(KW42)_](00_initial_post)  
 
 ---
 

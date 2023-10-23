@@ -36,8 +36,8 @@ effizienteren, modernen und rechtlich konformen Lösung.
  
 
 ---  
-Letzte Woche: [Erster Post _(KW42)_](posts/00_initial_post)  
-Nächste Woche: [Dritter Post _(KW44)_](posts/02_Team)
+Letzte Woche: [Erster Post _(KW42)_](00_initial_post)  
+Nächste Woche: [Dritter Post _(KW44)_](02_Team)
 
 ---
 
