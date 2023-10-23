@@ -6,6 +6,8 @@ Alle bisherigen Posts werden hier aufgelistet..
 ## Posts
 [Erster Post](posts/00_initial_post)
 
+[Zweiter Post](posts/01_Team)
+
 <script src="https://utteranc.es/client.js"
         repo="DH-Karlsruhe/IncidArch-Blog"
         issue-term="pathname"
