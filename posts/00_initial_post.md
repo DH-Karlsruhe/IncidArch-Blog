@@ -1,7 +1,6 @@
 # Der erste Blogpost
 
-Hallo zusammen 👋
-
+Hallo zusammen 👋  
 Das hier wird der erste Blogpost für das Projekt in der Vorlesung "Grundlagen des Software Engineering".
 
 ## Blogging Platform
@@ -21,10 +20,16 @@ Probiert es doch gleich mal aus 😊👇 (ganz unten auf der Seite)
 ## Tech Stack
 - [Typescript](https://www.typescriptlang.org/) (als einzige Sprache)
 - [Deno](https:/deno.land) (modern TS Runtime)
-- [React](https://react.dev/) (Frontend)
+- [React Native](https://reactnative.dev/) (Frontend)
+- [Expo](https://expo.dev/) (Frontend)
+- [Github Actions](https://docs.github.com/en/actions) (Deployment)
 - [Docker](https://www.docker.com/) (Deployment)
 - [GitHub](https://www.github.com/) (Development & PM)
 
+---
+Nächste Woche: [Erster Post _(KW42)_](posts/00_initial_post)  
+
+---
 
 <script src="https://utteranc.es/client.js"
         repo="DH-Karlsruhe/IncidArch-Blog"

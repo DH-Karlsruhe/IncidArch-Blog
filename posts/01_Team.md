@@ -32,5 +32,20 @@ effizienteren, modernen und rechtlich konformen Lösung.
 
 ## Sprintlänge
 
-#5. Sprint Backlog
+# 5. Sprint Backlog
  
+
+---  
+Letzte Woche: [Erster Post _(KW42)_](posts/00_initial_post)  
+Nächste Woche: [Dritter Post _(KW44)_](posts/02_Team)
+
+---
+
+<script src="https://utteranc.es/client.js"
+        repo="DH-Karlsruhe/IncidArch-Blog"
+        issue-term="pathname"
+        label="🪀📣"
+        theme="preferred-color-scheme"
+        crossorigin="anonymous"
+        async>
+</script>
