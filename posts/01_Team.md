@@ -50,7 +50,11 @@ jedoch mit Flexibilität für eventuelle Verlängerungen.
 # 5. Sprint Backlog
 <img width="716" alt="image" src="https://github.com/DH-Karlsruhe/IncidArch-Blog/assets/97988163/1e95093f-fe26-4ebe-9a4c-3b5d1a338629">
 
-
+# 6. Initiale Datenmodellierung
+Mittels Mermaid Entity-Relationship-Diagrammen,  
+da Github diese standardmäßig rendern kann.
+![image](https://github.com/DH-Karlsruhe/IncidArch-Blog/assets/33942165/5da54e2e-e028-4f97-b4a8-3239c3bd9da8)
+_(Hier dennoch als Bild :)_
 
 ---  
 Letzte Woche: [Erster Post _(KW42)_](00_initial_post)  
