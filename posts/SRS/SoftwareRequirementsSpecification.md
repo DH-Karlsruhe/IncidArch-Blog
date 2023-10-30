@@ -47,8 +47,10 @@ Das Verbandsbuch-System soll folgende Hauptfunktionen bieten:
 - **Benachrichtigungen**: Sicherheitsbeauftragte sollen automatische Benachrichtigungen erhalten, wenn Vorfallskategorien oder Schweregrade im Verbandsbuch erfasst werden. Diese Benachrichtigungen sollen anpassbar sein und in Echtzeit gesendet werden, um auf schwerwiegende Vorfälle schnell reagieren zu können.
 
 ### 1.3 Definitionen, Akronyme und Abkürzungen
+
 | Abkürzung | Erklärung                               |
 | ----------- | -------------------------------------- |
+
 | SRS       | Software Requirements Specification    |
 | DGUV      | Deutsche Gesetzliche Unfallversicherung |
 | DSGVO     | Datenschutz-Grundverordnung            |
