@@ -49,6 +49,7 @@ Das Verbandsbuch-System soll folgende Hauptfunktionen bieten:
 ### 1.3 Definitionen, Akronyme und Abkürzungen
 
 | Abkürzung | Erklärung                               |
+
 | ----------- | -------------------------------------- |
 
 | SRS       | Software Requirements Specification    |
