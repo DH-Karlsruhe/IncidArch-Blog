@@ -31,5 +31,8 @@ Die Vorbedingungen für diesen Anwendungsfall sind:
 
 # 5. Nachbedingungen
 
+Der Benutzer wird für die jeweilige Organisation > Abteilung > Team von einem Administrator freigegeben,
+damit es nicht zu Datenlecks kommt.
+
 # 6. Aufwandsschätzung
 Für diese Funktionalität wird ein Aufwand von 7 Punkten geschätzt
