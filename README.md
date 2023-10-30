@@ -16,6 +16,7 @@ Probiert es doch gleich mal aus 😊👇 (ganz unten auf der Seite)
 ## Tech Stack
 - [Typescript](https://www.typescriptlang.org/) (als einzige Sprache)
 - [Deno](https:/deno.land) (modern TS Runtime)
+- [Hono Framework mit Zod-OpenAPI Middleware](https://www.npmjs.com/package/@hono/zod-openapi)
 - [React Native](https://reactnative.dev/) (Frontend)
 - [Expo](https://expo.dev/) (Frontend)
 - [Github Actions](https://docs.github.com/en/actions) (Deployment)
@@ -26,7 +27,7 @@ Probiert es doch gleich mal aus 😊👇 (ganz unten auf der Seite)
 ## Posts
  1. [Erster Post _(KW42)_](posts/00_initial_post)
  2. [Zweiter Post _(KW43)_](posts/01_Team)
- 3. [Dritter Post _(KW44)_](posts/02_SRS)
+ 3. [Dritter Post _(KW44)_](posts/02_SRS_OpenAPI)
 
 <script src="https://utteranc.es/client.js"
         repo="DH-Karlsruhe/IncidArch-Blog"
