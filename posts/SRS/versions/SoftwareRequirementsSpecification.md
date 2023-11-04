@@ -117,47 +117,47 @@ Bis Juni möchten wir implementieren:
 #### 3.1.1 Ein Konto erstellen
 Diese Funktion ermöglicht es Benutzern, ein neues Konto im Verbandsbuch-System zu erstellen. Benutzer können ihre persönlichen Informationen angeben, um ein Konto zu registrieren. Nach erfolgreicher Registrierung werden sie in der Lage sein, sich im System anzumelden und auf die Funktionen zuzugreifen.
 
-[Ein Konto erstellen](use_cases/UC1_Konto_Erstellen.md)
+[Ein Konto erstellen](../use_cases/UC1_Konto_Erstellen.md)
 
 #### 3.1.2 Einloggen
 Die Einloggen-Funktion ermöglicht es Benutzern, sich in ihr Verbandsbuch-Konto anzumelden. Benutzer müssen ihre Anmeldeinformationen eingeben, um auf die Funktionen des Systems zuzugreifen. Nach dem erfolgreichen Login können sie auf ihre Verbandsbuch-Ereignisse und andere relevante Informationen zugreifen.
 
-[Einloggen](use_cases/UC2_Einloggen.md)
+[Einloggen](../use_cases/UC2_Einloggen.md)
 
 #### 3.1.3 Ausloggen
 Die Ausloggen-Funktion ermöglicht es Benutzern, sich sicher aus ihrem Verbandsbuch-Konto abzumelden. Dies ist wichtig, um die Sicherheit und Privatsphäre der Benutzer zu gewährleisten. Nach dem Ausloggen haben Benutzer keinen Zugriff auf ihr Konto, es sei denn, sie melden sich erneut an.
 
-[Ausloggen](use_cases/UC3_Ausloggen.md)
+[Ausloggen](../use_cases/UC3_Ausloggen.md)
 
 #### 3.1.4 Erstellen eines neuen Verbandsbuch-Ereignisses
 Diese Funktion ermöglicht Benutzern, ein neues Verbandsbuch-Ereignis zu erstellen. Benutzer können Daten wie Datum, Uhrzeit, Ort, Art des Vorfalls und eine Beschreibung des Vorfalls eingeben. Nach dem Erstellen des Ereignisses wird es im Verbandsbuch sichtbar sein.
 
-[Erstellen eines neuen Verbandsbuch-Ereignisses](use_cases/UC4_Ereigniss_Erstellen.md)
+[Erstellen eines neuen Verbandsbuch-Ereignisses](../use_cases/UC4_Ereigniss_Erstellen.md)
 
 #### 3.1.5 Bearbeiten von Verbandsbuch-Ereignissen
 Die Funktion "Bearbeiten von Verbandsbuch-Ereignissen" ermöglicht es Benutzern, bestehende Ereignisse im Verbandsbuch zu bearbeiten. Sie können Daten wie Datum, Uhrzeit, Ort, Art des Vorfalls und die Beschreibung des Vorfalls aktualisieren. Die vorgenommenen Änderungen werden im Verbandsbuch gespeichert.
 
-[Bearbeiten von Verbandsbuch-Ereignissen](use_cases/UC5_Ereigniss_Bearbeiten.md)
+[Bearbeiten von Verbandsbuch-Ereignissen](../use_cases/UC5_Ereigniss_Bearbeiten.md)
 
 #### 3.1.6 Dashboard-Überblick über Verbandsbuch-Ereignisse
 Diese Funktion bietet den Benutzern einen zentralen Dashboard-Überblick über alle Verbandsbuch-Ereignisse. Das Dashboard enthält Filter- und Suchfunktionen, um Ereignisse für verschiedene Zeiträume und Kategorien anzuzeigen. Darüber hinaus können Diagramme und Grafiken zur Visualisierung von Trends und Mustern angezeigt werden.
 
-[Dashboard-Überblick über Verbandsbuch-Ereignisse](use_cases/UC6_Dashboard.md)
+[Dashboard-Überblick über Verbandsbuch-Ereignisse](../use_cases/UC6_Dashboard.md)
 
 #### 3.1.7 Generieren von Berichten über Verbandsbuch-Ereignisse
 Benutzer mit Administratorrechten können Berichte über Verbandsbuch-Ereignisse generieren. Diese Berichte können anhand von verschiedenen Kriterien, wie Datum oder Art des Vorfalls, erstellt werden. Die Berichte können in verschiedenen Formaten (PDF, Excel) heruntergeladen werden und enthalten umfassende Informationen zu den Ereignissen.
 
-[Generieren von Berichten über Verbandsbuch-Ereignisse](use_cases/UC7_Berichte_Generieren.md)
+[Generieren von Berichten über Verbandsbuch-Ereignisse](../use_cases/UC7_Berichte_Generieren.md)
 
 #### 3.1.8 Verwalten von Benutzerrollen und Rechten im Verbandsbuch-System
 Diese Funktion ermöglicht es Systemadministratoren, Benutzerrollen zu erstellen, zu bearbeiten und zu löschen. Es gibt vordefinierte Rollen wie "Mitarbeiter," "Sicherheitsbeauftragter" und "Manager," die unterschiedliche Rechte haben. Administratoren können individuellen Benutzern oder Benutzergruppen Rollen und Berechtigungen zuweisen. Rollen bestimmen, welche Aktionen ein Benutzer im Verbandsbuch-System ausführen kann, wie das Erstellen, Bearbeiten oder Löschen von Ereignissen.
 
-[Verwalten von Benutzerrollen und Rechten im Verbandsbuch-System](use_cases/UC8_Verwalten_Benutzerrollen.md)
+[Verwalten von Benutzerrollen und Rechten im Verbandsbuch-System](../use_cases/UC8_Verwalten_Benutzerrollen.md)
 
 #### 3.1.9 Erhalten von automatischen Benachrichtigungen für schwerwiegende Vorfälle
 Sicherheitsbeauftragte können automatische Benachrichtigungen erhalten, wenn schwerwiegende Vorfälle im Verbandsbuch registriert werden. Diese Benachrichtigungen enthalten wichtige Details wie den Zeitpunkt des Vorfalls, die Art des Vorfalls und den Standort. Die Benachrichtigungen sind anpassbar, sodass der Sicherheitsbeauftragte die Kategorien festlegen kann, für die er Benachrichtigungen erhalten möchte. Die Benachrichtigungen werden in Echtzeit gesendet, um eine schnelle Reaktion auf schwerwiegende Vorfälle zu ermöglichen. Der Sicherheitsbeauftragte kann die Benachrichtigungseinstellungen nach Bedarf ändern.
 
-[Erhalten von automatischen Benachrichtigungen für schwerwiegende Vorfälle](use_cases/UC9_Benachrichtigungen.md)
+[Erhalten von automatischen Benachrichtigungen für schwerwiegende Vorfälle](../use_cases/UC9_Benachrichtigungen.md)
 
 #### #TODO noch mehr?
 

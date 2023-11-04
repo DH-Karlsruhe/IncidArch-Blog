@@ -6,7 +6,7 @@ Hallo zusammen 👋
 In Woche 3 haben wir uns intensiv mit der Erstellung eines Software Requirements Specification (SRS) befasst.
 
 Auf das Dokumment können Sie mit dem folgenden Link zugreifen:
-- [Software Requirements Specification](SRS/SoftwareRequirementsSpecification.md)
+- [Software Requirements Specification](SRS/versions/SoftwareRequirementsSpecification.md)
 
 Für die Erstellung der Mocks haben wir auf das Tool namens [Miro](https://miro.com/) zurückgegriffen. Miro ist eine Online-Kollaborationsplattform, die es uns ermöglicht, Ideen zu visualisieren, Prozesse zu modellieren und Mockups zu erstellen. Es ist ein äußerst nützliches Werkzeug, um unsere Gedanken zu organisieren und die Anforderungen in einer visuell ansprechenden Weise zu präsentieren.
 
