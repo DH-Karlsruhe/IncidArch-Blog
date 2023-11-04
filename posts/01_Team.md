@@ -58,7 +58,7 @@ _(Hier dennoch als Bild :)_
 
 ---  
 Letzte Woche: [Erster Post _(KW42)_](00_initial_post)  
-Nächste Woche: [Dritter Post _(KW44)_](02_SRS_OpenAPI)  
+Nächste Woche: [Dritter Post _(KW43)_](02_SRS_OpenAPI)  
 
 ---
 
