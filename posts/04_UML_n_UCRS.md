@@ -103,8 +103,8 @@ sequenceDiagram
 
 
 ---  
-Letzte Woche: [Zweiter Post _(KW43)_](02_SRS_OpenAPI)  
-Nächste Woche: [Vierter Post _(KW45)_](TODO)
+Letzte Woche: [Dritter Post _(KW43)_](02_SRS_OpenAPI)  
+Nächste Woche: [Fünfter Post _(KW45)_](TODO)
 
 ---
 
