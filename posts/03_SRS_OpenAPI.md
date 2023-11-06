@@ -6,7 +6,7 @@ Hallo zusammen 👋
 In Woche 3 haben wir uns intensiv mit der Erstellung eines Software Requirements Specification (SRS) befasst.
 
 Auf das Dokumment können Sie mit dem folgenden Link zugreifen:
-- [Software Requirements Specification](SRS/SoftwareRequirementsSpecification.md)
+- [Software Requirements Specification](SRS/v2_w4/SoftwareRequirementsSpecification.md)
 
 Für die Erstellung der Mocks haben wir auf das Tool namens [Miro](https://miro.com/) zurückgegriffen. Miro ist eine Online-Kollaborationsplattform, die es uns ermöglicht, Ideen zu visualisieren, Prozesse zu modellieren und Mockups zu erstellen. Es ist ein äußerst nützliches Werkzeug, um unsere Gedanken zu organisieren und die Anforderungen in einer visuell ansprechenden Weise zu präsentieren.
 
@@ -44,15 +44,12 @@ Das alles in TypeScript und mit vollständiger Typisierung (meint, keine genickb
 >
 
 👇
-
-![OpenAPI-Objekt](../images/OpenAPI-Objekt-Struktur.png)
-
-
 **Weitere infos dazu im Backend unter `deno_backend/api` oder unter  `deno_backend/🧭START_HERE.md`.**
+![OpenAPI-Objekt](../images/OpenAPI-Objekt-Struktur.png)
 
 ---  
 Letzte Woche: [Zweiter Post _(KW42)_](01_Team)  
-Nächste Woche: [Vierter Post _(KW44)_](03_Name)
+Nächste Woche: [Vierter Post _(KW44)_](04_UML_n_UCRS)
 
 ---
 
