@@ -23,7 +23,10 @@ Dieser Anwendungsfall ermöglicht es jedem, sich zu registrieren und ein Konto z
 - Der Benutzer erhält eine Bestätigungs-Mail mit einem Code für die App.
 - Besagter Code kann entweder auf Screen für die nächste 
 
-## 2.2 Sequenzdiagramm
+## 2.2 UML-Aktivitätsdiagramm
+![UML-Aktivität-Konto-Erstellen](./uml_activity/uml_activity_register.png)
+
+## 2.3 Sequenzdiagramm
 
 ```mermaid
 sequenceDiagram

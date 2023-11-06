@@ -24,7 +24,10 @@ Dieser Anwendungsfall ermöglicht es einem autorisierten Benutzer, ein bestehend
 ## 2.2 Alternativer Ablauf
 - Falls der Benutzer fehlende oder ungültige Informationen eingibt, wird eine Fehlermeldung angezeigt, und der Benutzer wird aufgefordert, die Informationen zu korrigieren.
 
-## 2.3 Sequenzdiagramm
+## 2.3 UML-Aktivitätsdiagramm
+![UML-Aktivität-Ereigniss-Bearbeiten](./uml_activity/uml_activity_bearbeiten.png)
+
+## 2.4 Sequenzdiagramm
 
 ```mermaid
 sequenceDiagram
