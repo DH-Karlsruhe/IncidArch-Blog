@@ -27,7 +27,10 @@ Sofern ein Fehler in der Auftragsbearbeitung am Payment Gateway auftritt,
 wird der Bezahlvorgang abgebrochen
 und der Benutzer kehrt zum (ausgefüllten) Bestellformular zurück.
 
-## 2.3 Sequenzdiagramm
+## 2.3 UML-Aktivitätsdiagramm
+![UML-Aktivität-Ereigniss-Kaufen](./uml_activity/uml_activity_buy.png)
+
+## 2.4 Sequenzdiagramm
 
 ```mermaid
 sequenceDiagram
