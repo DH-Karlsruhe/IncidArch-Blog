@@ -1,11 +1,9 @@
 <script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js"></script>
-<script>
-    window.addEventListener("DOMConentLoaded", function () {
-        mermaid.initialize({
-            startOnLoad: true,
-            theme: "default",
-        });
-        // Parst automatisch alle Elemente mit der Klasse "language-mermaid" => ```mermaid Bläcke erhalten diese Klasse automatisch.
-        window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
-    }, false);
+<script defer>
+    mermaid.initialize({
+        startOnLoad: true,
+        theme: "default",
+    });
+    // Parst automatisch alle Elemente mit der Klasse "language-mermaid" => ```mermaid Bläcke erhalten diese Klasse automatisch.
+    window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
 </script>

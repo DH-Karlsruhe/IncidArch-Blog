@@ -35,4 +35,4 @@ Die Vorbedingungen für diesen Anwendungsfall sind:
 Der generierte Bericht wird dem Benutzer angezeigt und kann je nach Bedarf exportiert oder weiterverarbeitet werden.
 
 # 6. Aufwandsschätzung
-Für die Implementierung der Berichtsgenerierung wird ein Aufwand von
+Für die Implementierung der Berichtsgenerierung wird ein Aufwand von 10 Punkten geschätzt.
