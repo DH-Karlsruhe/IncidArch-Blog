@@ -53,7 +53,7 @@
 ## 1. Einführung
 
 ### 1.1 Zweck
-Diese Spezifikation der Softwareanforderungen (SRS) beschreibt alle Spezifikationen für die Anwendung "IncidArch". Sie enthält einen Überblick über dieses Projekt und seine Vision, detaillierte Informationen über die geplanten Funktionen und Rahmenbedingungen des Entwicklungsprozesses.
+In dieser Software-Anforderungsspezifikation (SRS) werden sämtliche Anforderungen für die Applikation "IncidArch" umfassend dargelegt. Sie vermittelt eine umfassende Übersicht über das Projekt sowie dessen Vision. Zudem werden ausführliche Einblicke in die geplanten Features und die Rahmenbedingungen des Entwicklungsprozesses gewährt. Diese SRS ist ein entscheidendes Dokument, das als Leitfaden für das gesamte Projekt dient.
 
 ### 1.2 Umfang
 Das Projekt wird als Android-App, IPhone-App und als Website umgesetzt.
@@ -79,8 +79,21 @@ Das Verbandsbuch-System soll folgende Hauptfunktionen bieten:
 | API       | Application Programming Interface     |
 
 
-### 1.5 Übersicht
-Im folgenden Kapitel finden Sie einen Überblick über dieses Projekt mit Vision und der Gesamtübersicht des Anwendungsfalls. Das dritte Kapitel (Spezifikation der Anforderungen) liefert weitere Details zu den spezifischen Anforderungen in Bezug auf Funktionalität, Benutzerfreundlichkeit und Designparameter. Schließlich gibt es ein Kapitel mit unterstützenden Informationen.
+## 1.4 Übersicht
+
+Die folgende Übersicht bietet eine Zusammenfassung des SRS-Dokuments und seiner Struktur. Das SRS-Dokument legt detaillierte Anforderungen für die Anwendung "IncidArch" fest und bietet Einblicke in die Projektvision, geplante Funktionen und die Rahmenbedingungen für die Entwicklung.
+
+Das Dokument gliedert sich in die folgenden Abschnitte:
+
+- **1. Einführung**: Dieser Abschnitt erläutert den Zweck und den Umfang des SRS-Dokuments.
+
+- **2. Gesamtbeschreibung**: Hier finden Sie Informationen zur Vision des Projekts, ein Use-Case-Diagramm und den verwendeten Technologiestack.
+
+- **3. Spezifische Anforderungen**: Dieser Abschnitt beschreibt ausführlich die funktionellen, benutzerfreundlichen, zuverlässigen, leistungsbezogenen, unterstützenden, designbezogenen und rechtlichen Anforderungen, die die IncidArch-Anwendung betreffen.
+
+- **4. Unterstützende Informationen**: Abschließend werden hier Kontaktmöglichkeiten zum IncidArch-Team und Verweise auf den IncidArch-Blog für zusätzliche Details bereitgestellt.
+
+Das SRS-Dokument bietet eine klare Roadmap für das Projekt und informiert alle Beteiligten ausführlich über die Anforderungen und den eingesetzten Technologiestack.
     
 ## 2. Gesamtbeschreibung
 
@@ -182,6 +195,7 @@ Diese Funktion ermöglicht es Systemadministratoren, Benutzerrollen zu erstellen
 Sicherheitsbeauftragte können automatische Benachrichtigungen erhalten, wenn schwerwiegende Vorfälle im Verbandsbuch registriert werden. Diese Benachrichtigungen enthalten wichtige Details wie den Zeitpunkt des Vorfalls, die Art des Vorfalls und den Standort. Die Benachrichtigungen sind anpassbar, sodass der Sicherheitsbeauftragte die Kategorien festlegen kann, für die er Benachrichtigungen erhalten möchte. Die Benachrichtigungen werden in Echtzeit gesendet, um eine schnelle Reaktion auf schwerwiegende Vorfälle zu ermöglichen. Der Sicherheitsbeauftragte kann die Benachrichtigungseinstellungen nach Bedarf ändern.
 
 [Erhalten von automatischen Benachrichtigungen für schwerwiegende Vorfälle](./use_cases/UC9_Benachrichtigungen.md)
+<<<<<<< HEAD
 
 
 
@@ -196,51 +210,51 @@ um später Vorfälle archivieren zu können.
 
 
 #### #TODO noch mehr?
+=======
+>>>>>>> 408402017cc2dacacbedf1599ef3850c6bfc9936
 
 ### 3.2 Benutzerfreundlichkeit
-Wir planen, die Benutzeroberfläche so intuitiv und selbsterklärend wie möglich zu gestalten, um dem Benutzer ein möglichst komfortables Nutzungserlebnis zu bieten. Obwohl ein FAQ-Dokument verfügbar sein wird, sollte es nicht notwendig sein, es zu verwenden.
 
-#### 3.2.1 Keine Schulungszeit erforderlich
-Unser Ziel ist, dass ein Benutzer die Android-Anwendung installiert, öffnet und alle Funktionen ohne Erklärung oder Hilfe verwenden kann.
+#### 3.2.1 Intuitive Benutzeroberfläche
+Unsere oberste Priorität besteht darin, eine Benutzeroberfläche zu schaffen, die auf Anhieb verständlich und leicht zu bedienen ist. Unser Ziel ist es, dass Benutzer die App ohne aufwendige Schulungen nutzen können.
 
-### 3.3 Zuverlässigkeit
+### 3.3 Hohe Verfügbarkeit
 
-#### 3.3.1 Verfügbarkeit
-Der Server soll 95% der Zeit verfügbar sein. Das bedeutet auch, dass wir die "Stoßzeiten" unserer App ermitteln müssen, da die Ausfallzeit des Servers nur akzeptabel ist, wenn so wenig wie möglich Benutzer die App verwenden möchten.
+#### 3.3.1 Kontinuierliche Erreichbarkeit
+Wir setzen alles daran, sicherzustellen, dass die IncidArch-Anwendung rund um die Uhr verfügbar ist. Hierbei setzen wir auf innovative Technologien, permanente Systemüberwachung, clevere Caching-Strategien und eine zuverlässige Fehlerbehandlung, um sicherzustellen, dass Benutzer jederzeit auf die App zugreifen können, ohne Unterbrechungen befürchten zu müssen.
 
-#### 3.3.2 Fehlerquote
-Unser Ziel ist, dass keine Daten verloren gehen. Dies ist wichtig, damit die Spielrunden auch nach einem Serverausfall fortgesetzt werden können.
+#### 3.3.2 Datensicherheit
+Ein essenzielles Ziel ist es, sicherzustellen, dass keinerlei Daten verloren gehen. Dies ist von entscheidender Bedeutung, um die Integrität der erfassten Informationen zu gewährleisten. Unser System wird robuste Backup- und Wiederherstellungsmechanismen implementieren, um die Sicherheit und Verfügbarkeit der Daten zu gewährleisten.
 
-### 3.4 Leistung
+### 3.4 Leistung und Effizienz
 
-#### 3.4.1 Kapazität
-Das System sollte in der Lage sein, Tausende von Anfragen zu verarbeiten. Es sollte auch möglich sein, so viele Benutzer zu registrieren, wie erforderlich sind.
+#### 3.4.1 Skalierbarkeit
+Unsere Plattform wird darauf ausgelegt sein, mühelos mit steigender Nutzerzahl mitzuwachsen. Das System soll in der Lage sein, Anfragen von Tausenden von Nutzern gleichzeitig zu verarbeiten.
 
-#### 3.4.2 Speicher
-Smartphones bieten nicht viel Speicherplatz. Daher streben wir an, den benötigten Speicherplatz so gering wie möglich zu halten.
+#### 3.4.2 Ressourcenoptimierung
+Wir optimieren die Nutzung vom Speicher, um den Speicherbedarf unserer Anwendung zu minimieren.
 
-#### 3.4.3 App-Leistung / Reaktionszeit
-Um die beste App-Leistung zu bieten, streben wir an, die Reaktionszeit so gering wie möglich zu halten. Dies verbessert das Benutzererlebnis erheblich.
+#### 3.4.3 Schnelligkeit und Reaktionsfähigkeit
+Wir halten die Reaktionszeit der App auf Anfragen so kurz wie möglich, um ein optimales Nutzererlebnis sicherzustellen.
 
-### 3.5 Unterstützbarkeit
+### 3.5 Qualitätskontrolle und Nutzerfeedback
 
-#### 3.5.1 Codierungsstandards
-Wir werden den Code unter Verwendung aller gängigen Clean-Code-Standards schreiben. Beispielsweise werden wir Variablen und Methoden nach ihren Funktionalitäten benennen. Dies hält den Code für jeden leicht lesbar und erleichtert die weitere Entwicklung erheblich.
+#### 3.5.1 Ständige Anwendungsoptimierung
+Unser Team wird kontinuierlich daran arbeiten, die Anwendung zu optimieren und sicherzustellen, dass sie den höchsten Qualitätsstandards entspricht. Wir werden regelmäßig Leistungsüberprüfungen und Qualitätstests durchführen, um mögliche Engpässe oder Verbesserungsmöglichkeiten zu identifizieren.
 
-#### 3.5.2 Teststrategie
-Die Anwendung wird eine hohe Testabdeckung haben, und alle wichtigen Funktionen und Randfälle sollten getestet werden. Weitere Fehler in der Implementierung werden sofort entdeckt, und es wird einfach sein, den Fehler zu lokalisieren.
+#### 3.5.2 Nutzerfeedback-Integration
+Wir schätzen das Feedback unserer Benutzer sehr. Um sicherzustellen, dass die Anwendung ihren Anforderungen entspricht, werden wir aktiv auf das Feedback unserer Benutzer hören und gezielte Verbesserungen basierend auf deren Bedenken und Anregungen umsetzen.
 
-### 3.6 Entwurfsbeschränkungen
+### 3.6 Ressourcen für eine reibungslose Nutzung
 
-### 3.7 Anforderungen an die Online-Benutzerdokumentation und das Hilfesystem
-Die Verwendung der App sollte so intuitiv wie möglich sein, sodass keine weiteren Dokumentationen erforderlich sind. Wenn der Benutzer Hilfe benötigt, werden wir eine "Hilfe"-Schaltfläche in der App implementieren, die ein FAQ und ein Formular zur Kontaktaufnahme mit dem Entwicklungsteam enthält.
+Unsere App wird mit einer umfangreichen Wissensdatenbank ausgestattet sein, um sicherzustellen, dass die Benutzer schnell und einfach Antworten auf ihre Fragen finden können. Wir werden Tutorials, Anleitungen und Tipps bereitstellen, um die Benutzer bei der effizienten Nutzung der Anwendung zu unterstützen und häufig auftretende Probleme zu lösen.
 
-### 3.8 Gekaufte Komponenten
+### 3.7 Gekaufte Komponenten
 Wir haben derzeit keine gekauften Komponenten. Wenn in Zukunft gekaufte Komponenten vorhanden sind, werden wir sie hier auflisten.
 
-### 3.9 Schnittstellen
+### 3.8 Schnittstellen
 
-#### 3.9.1 Benutzeroberflächen
+#### 3.8.1 Benutzeroberflächen
 
 Die zu implementierenden Benutzeroberflächen sind:
 
@@ -260,16 +274,16 @@ Die zu implementierenden Benutzeroberflächen sind:
 
 8. **Benachrichtigungseinstellungsseite**: Eine Seite, auf der Sicherheitsbeauftragte Benachrichtigungseinstellungen anpassen können, um Benachrichtigungen für schwerwiegende Vorfälle zu konfigurieren.
 
-#### 3.9.2 Hardware-Schnittstellen
+#### 3.8.2 Hardware-Schnittstellen
 
 Sind clientseitig entsprechend der React Native Dokumentation zu verwenden.  
 
-#### 3.9.3 Software-Schnittstellen
+#### 3.8.3 Software-Schnittstellen
 
 Werden in der impliziten OpenAPI-Spezifikation des Backends vorgegeben
 und sind über den API-Endpoint des Backends `/doc` abgerufen _(eq. `http://example.com/api/v1/doc`)_.
 
-#### 3.9.4 Kommunikationsschnittstellen
+#### 3.8.4 Kommunikationsschnittstellen
 
 Es wird hauptsächlich das Hyper-Text-Transfer-Protocol (HTTP) verwendet,  
 um die Backend <-> Frontend-Kommunikation zu ermöglichen.  
@@ -278,18 +292,15 @@ und da Hono zudem das Remote-Procedure-Call-Protokoll (RPC) ermöglicht,
 bietet sich eine weitere alternative in einem (noch) kompakteren Datenformat als JSON an,  
 zumal wir primär mit JSON arbeiten werden.
 
-### 3.10 Lizenzanforderungen
+### 3.9 Lizenzanforderungen
 
 Wir verwenden ausschließlich FOSS unter freien Lizenzen,  
 wie der MIT-Lizenz.
 
-### 3.11 Rechtliche, Urheberrechts- und andere Hinweise
+### 3.10 Rechtliche, Urheberrechts- und andere Hinweise
 
 Unsere Ausarbeitungen sind zunächst unserem, individuellen Urheberrecht nach geschützt,  
 solange wir uns nicht im Konsens auf eine Lizenzänderung geeinigt haben.
-
-### 3.12 Anwendbare Standards
-Die Entwicklung wird den gängigen Clean-Code-Standards und Namenskonventionen folgen.
 
 ## 4. Unterstützende Informationen
 Für weitere Informationen können Sie das IncidArch Team kontaktieren oder unseren [IncidArch Blog](https://dh-karlsruhe.github.io/IncidArch-Blog/) überprüfen.
