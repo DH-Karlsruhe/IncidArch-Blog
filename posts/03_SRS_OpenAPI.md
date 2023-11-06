@@ -53,11 +53,4 @@ Nächste Woche: [Vierter Post _(KW44)_](04_UML_n_UCRS)
 
 ---
 
-<script src="https://utteranc.es/client.js"
-        repo="DH-Karlsruhe/IncidArch-Blog"
-        issue-term="pathname"
-        label="🪀📣"
-        theme="preferred-color-scheme"
-        crossorigin="anonymous"
-        async>
-</script>
+{% include kommentare.html %}

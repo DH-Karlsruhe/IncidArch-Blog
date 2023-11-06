@@ -66,3 +66,5 @@ damit es nicht zu Datenlecks kommt.
 
 # 6. Aufwandsschätzung
 Für diese Funktionalität wird ein Aufwand von 7 Punkten geschätzt
+
+{% include mermaid.html %}

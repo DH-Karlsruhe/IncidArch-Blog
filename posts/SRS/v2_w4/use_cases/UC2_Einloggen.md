@@ -57,3 +57,5 @@ Die App öffnet die Hauptseite und ermöglicht dem Benutzer den Zugriff auf die 
 
 # 6. Aufwandsschätzung
 Für diese Funktionalität wird ein Aufwand von 5 Punkten geschätzt.
+
+{% include mermaid.html %}

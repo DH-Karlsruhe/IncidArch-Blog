@@ -70,3 +70,5 @@ Die Benutzer können mit dem gekauften Kontingent Vorfälle archivieren.
 # 6. Aufwandsschätzung
 Für die Implementierung der Benachrichtigungsfunktion wird ein Aufwand von 10 Punkten geschätzt.
 _(Vereinfachung durch einsatz von Zahlungsdienstleistern möglich => +Vertrauen)_
+
+{% include mermaid.html %}

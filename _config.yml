@@ -3,3 +3,4 @@
 title: IncidArch⛑️
 description: Unfall-/ und Verbandbuch Archiv
 markdown: kramdown-parser-gfm
+mermaid: true
