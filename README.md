@@ -1,7 +1,7 @@
 # Team Blog ⛑️
 
 Für unsere wöchentlichen Team-Blog-Beiträge.
-Alle bisherigen Posts werden unten aufgelistet.
+Alle bisherigen Posts werden unten aufgelistet. 👇
 
 ## Kommentare
 
@@ -27,7 +27,8 @@ Probiert es doch gleich mal aus 😊👇 (ganz unten auf der Seite)
 ## Posts
  1. [Erster Post _(KW42)_](posts/00_initial_post)
  2. [Zweiter Post _(KW43)_](posts/01_Team)
- 3. [Dritter Post _(KW44)_](posts/02_SRS_OpenAPI)
+ 3. [Dritter Post _(KW44)_](posts/03_SRS_OpenAPI)
+ 4. [Vierter Post _(KW45)_](posts/04_UML_n_UCRS)
 
 <script src="https://utteranc.es/client.js"
         repo="DH-Karlsruhe/IncidArch-Blog"

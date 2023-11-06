@@ -8,6 +8,9 @@ Dieser Anwendungsfall ermöglicht es jedem Benutzer, mit einem registrierten Acc
 ## 1.2 Mockup
 ![Einloggen](./mockups/UC2_Einloggen.png)
 
+## 1.3 UML-Diagramm
+![UML-Einloggen](./uml_diagramme/uml_einloggen.png)
+
 # 2. Ablauf von Events
 
 ## 2.1 Grundablauf
@@ -21,21 +24,24 @@ Dieser Anwendungsfall ermöglicht es jedem Benutzer, mit einem registrierten Acc
 ## 2.2 Sequenzdiagramm
 
 ```mermaid
-sequenceDiagram
-    loop Latest every two weeks
-        critical Autorization with external Credentials 
-            User -) Server: Send Authorization Credentials (Basic/OAuth)
-            Server ->>+ Server: Validate User authenticity
-            alt is valid
-                Server ->>+ User: Grant JSON Web-Token 
-                activate User
-                User ->> User: Store JWT secure & persistent up to ttl
-                deactivate User
-            else is unknown
-                Server -x- User: Invalid Request (400)
-            end
-        end
-    end
+ sequenceDiagram
+  participant User
+  participant App
+  participant Server
+
+  User->>App: Öffnet die React-App
+  App->>User: Zeigt Login-Bildschirm (React-Komponente) an
+
+  User->>App: Füllt Login-Daten aus
+  App->>Server: Sendet Anfrage zur Benutzeranmeldung
+
+  alt Anmeldedaten korrekt
+    Server-->>App: Anmeldung erfolgreich, sende JSON WebToken
+    App-->>User: Weiterleitung zur Hauptseite
+  else Anmeldedaten inkorrekt
+    Server-->>App: Anmeldung fehlgeschlagen
+    App-->>User: Zeigt Fehlermeldung an
+  end
 ```
 
 # 3. Besondere Anforderungen

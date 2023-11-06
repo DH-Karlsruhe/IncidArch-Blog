@@ -53,6 +53,7 @@ Die Informationen zur Ereigniserfassung müssen sorgfältig und vollständig dok
 Die Vorbedingungen für diesen Anwendungsfall sind:
 1. Der Benutzer ist in der Anwendung angemeldet.
 2. Der Benutzer befindet sich auf der Verbandbuch-Seite.
+3. Der Benutzer hat das erforderliche Kontingent, um die Archivierung vorzunehmen _(bemessen an Archivierungs-Dauer)_
 
 # 5. Nachbedingungen
 Das erstellte Ereignis wird im Verbandbuch gespeichert und kann von autorisierten Benutzern eingesehen werden.
