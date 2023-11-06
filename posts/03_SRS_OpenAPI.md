@@ -48,8 +48,8 @@ Das alles in TypeScript und mit vollständiger Typisierung (meint, keine genickb
 ![OpenAPI-Objekt](../images/OpenAPI-Objekt-Struktur.png)
 
 ---  
-Letzte Woche: [Zweiter Post _(KW42)_](01_Team)  
-Nächste Woche: [Vierter Post _(KW44)_](04_UML_n_UCRS)
+Letzte Woche: [Zweiter Post _(KW42)_](01_Team.md)  
+Nächste Woche: [Vierter Post _(KW44)_](04_UML_n_UCRS.md)
 
 ---
 

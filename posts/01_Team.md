@@ -57,16 +57,9 @@ da Github diese standardmäßig rendern kann.
 _(Hier dennoch als Bild :)_
 
 ---  
-Letzte Woche: [Erster Post _(KW42)_](00_initial_post)  
-Nächste Woche: [Dritter Post _(KW43)_](03_SRS_OpenAPI)  
+Letzte Woche: [Erster Post _(KW42)_](00_initial_post.md)  
+Nächste Woche: [Dritter Post _(KW43)_](03_SRS_OpenAPI.md)  
 
 ---
 
-<script src="https://utteranc.es/client.js"
-        repo="DH-Karlsruhe/IncidArch-Blog"
-        issue-term="pathname"
-        label="🪀📣"
-        theme="preferred-color-scheme"
-        crossorigin="anonymous"
-        async>
-</script>
+{% include kommentare.html %}

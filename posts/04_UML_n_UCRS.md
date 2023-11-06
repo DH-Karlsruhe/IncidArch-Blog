@@ -46,16 +46,9 @@ Der Hauptvorteil liegt jedoch eindeutig in dem Wiederverwenden bekannter Muster.
 
 
 ---  
-Letzte Woche: [Dritter Post _(KW43)_](03_SRS_OpenAPI)   
+Letzte Woche: [Dritter Post _(KW43)_](03_SRS_OpenAPI.md)   
 Nächste Woche: [Fünfter Post _(KW45)_](TODO)
 
 ---
 
-<script src="https://utteranc.es/client.js"
-        repo="DH-Karlsruhe/IncidArch-Blog"
-        issue-term="pathname"
-        label="🪀📣"
-        theme="preferred-color-scheme"
-        crossorigin="anonymous"
-        async>
-</script>
+{% include kommentare.html %}
