@@ -8,10 +8,8 @@ In Woche 4 haben wir uns intensiv mit dem Ausarbeiten von UML-Aktivitätsdiagram
 und der Use-Case-Realization-Specification (UCRS) des Rational Unified Process  
 im Rahmen unserer Software Requirements Specification (SRS) befasst.
 
-Auf das Dokumment können Sie mit dem folgenden Link zugreifen:
+Das aktualisierte Dokumment wird unter dem folgenden Link bereitgestellt:
 - [Software Requirements Specification](SRS/v2_w4/SoftwareRequirementsSpecification.md)
-
-Für die Erstellung der Mocks haben wir auf das Tool namens [Miro](https://miro.com/) zurückgegriffen. Miro ist eine Online-Kollaborationsplattform, die es uns ermöglicht, Ideen zu visualisieren, Prozesse zu modellieren und Mockups zu erstellen. Es ist ein äußerst nützliches Werkzeug, um unsere Gedanken zu organisieren und die Anforderungen in einer visuell ansprechenden Weise zu präsentieren.
 
 ## UML-Diagramme
 
@@ -30,6 +28,21 @@ Die Diagramme sind in den folgenden Use-Cases zu finden:
  - [Konto Erstellen](./SRS/v2_w4/use_cases/UC1_Konto_Erstellen.md)
  - [Einloggen](./SRS/v2_w4/use_cases/UC2_Einloggen.md)
  - [Bezahlvorgang](./SRS/v2_w4/use_cases/UC10_Bezahlvorgang.md)
+
+
+## React Native 
+Im Frontend hat sich einiges entwickelt,
+die ersten Views stehen bereits und wir experimentieren an allen Enden.  
+Konkreteres gibt es im Laufe der nächsten Blog-Posts. :)
+
+## Backend Tests & Minimierung
+Um die Ausarbeitung des Backends so minimal wie möglich zu halten,  
+hat es einen kleinen Refactor gegeben.  
+Ein weiterer Aspekt der hier mit eingeflossen ist, sind Tests.
+Deno stellt eine offizielle Implementierung für [Behaviour-Driven-Development](https://docs.deno.com/runtime/manual/basics/testing/behavior_driven_development) zur verfügung,  
+deren API identisch zu der von Jest ist und demnach eine erhöhte Portabilität aufweist - sollten wir jemals die Laufzeit wechseln wollen.  
+
+Der Hauptvorteil liegt jedoch eindeutig in dem Wiederverwenden bekannter Muster.
 
 
 ---  
