@@ -24,7 +24,6 @@
       - [3.1.8 Verwalten von Benutzerrollen und Rechten im Verbandsbuch-System](#318-verwalten-von-benutzerrollen-und-rechten-im-verbandsbuch-system)
       - [3.1.9 Erhalten von automatischen Benachrichtigungen für schwerwiegende Vorfälle](#319-erhalten-von-automatischen-benachrichtigungen-für-schwerwiegende-vorfälle)
       - [3.1.10 Erwerben eines Kontingents, um Archivierungen vorzunehmen.](#3110-erwerben-eines-kontingents-um-archivierungen-vorzunehmen)
-      - [#TODO noch mehr?](#todo-noch-mehr)
     - [3.2 Benutzerfreundlichkeit](#32-benutzerfreundlichkeit)
       - [3.2.1 Keine Schulungszeit erforderlich](#321-keine-schulungszeit-erforderlich)
     - [3.3 Zuverlässigkeit](#33-zuverlässigkeit)
@@ -195,9 +194,6 @@ Diese Funktion ermöglicht es Systemadministratoren, Benutzerrollen zu erstellen
 Sicherheitsbeauftragte können automatische Benachrichtigungen erhalten, wenn schwerwiegende Vorfälle im Verbandsbuch registriert werden. Diese Benachrichtigungen enthalten wichtige Details wie den Zeitpunkt des Vorfalls, die Art des Vorfalls und den Standort. Die Benachrichtigungen sind anpassbar, sodass der Sicherheitsbeauftragte die Kategorien festlegen kann, für die er Benachrichtigungen erhalten möchte. Die Benachrichtigungen werden in Echtzeit gesendet, um eine schnelle Reaktion auf schwerwiegende Vorfälle zu ermöglichen. Der Sicherheitsbeauftragte kann die Benachrichtigungseinstellungen nach Bedarf ändern.
 
 [Erhalten von automatischen Benachrichtigungen für schwerwiegende Vorfälle](./use_cases/UC9_Benachrichtigungen.md)
-<<<<<<< HEAD
-
-
 
 #### 3.1.10 Erwerben eines Kontingents, um Archivierungen vorzunehmen.
 Da wir eine SaaS-Anwendung anstreben, ist ein Bezahlvorgang von Nöten,
@@ -207,11 +203,6 @@ in dem der Benutzer ein Archivierungs-Kontingent erwirbt,
 um später Vorfälle archivieren zu können.
 
 [Erhalten von automatischen Benachrichtigungen für schwerwiegende Vorfälle](./use_cases/UC10_Bezahlvorgang.md)
-
-
-#### #TODO noch mehr?
-=======
->>>>>>> 408402017cc2dacacbedf1599ef3850c6bfc9936
 
 ### 3.2 Benutzerfreundlichkeit
 
