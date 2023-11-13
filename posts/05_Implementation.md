@@ -167,11 +167,29 @@ da der zu löschende Benutzer zuvor Zugriff auf den intermediären Vorfalls-Schl
 An der eigentlichen Benutzerschnittstelle hat es Fortschritte im Bereich des Routing gegeben  
 und erste Screens stehen bereits zur Verfügung..
 
-**//TODO**
+### Was ist Incid-Arch? - Screen
+![Was ist Incid-Arch](https://github.com/DH-Karlsruhe/IncidArch-Blog/assets/33942165/05fb09d9-46e1-440e-9ae4-fa7037c0912b)
+
+### Login: Home - Screen
+![Home](https://github.com/DH-Karlsruhe/IncidArch-Blog/assets/33942165/8464f2bd-8452-4270-98c5-cc883674e0f9)
+
+
+## Aktuelle Hürden
+
+Neben der eigentlichen Erstellung von Atomen > Molekülen > Organismen > Templates > Pages (nach dem Atomic-Schema) im Frontend,  
+stellt sich aktuell vor allem die Herausforderung von Authentifizierten-Routen.  
+Hier gibt es bislang keine einfache Lösung, wir bleiben allerdings dran hier weiterzumachen..
+
+Im Backend stellt vor allem die Unklarheit über die Ziel-Infrastruktur einen Blocker dar,  
+zumal es dennoch möglich ist an anderen Stellen, wie der Resilienz des Service oder einer verbesserten Entwickler-Erfahrung weiterzuarbeiten.  
+
+Es bleibt spannend wie die kommenden Wochen den Kurs des Projekts beeinflussen werden,  
+in jedem Fall geht es voran und das ist doch nie etwas schlechtes. :D
+
 
 ---  
-Letzte Woche: [Dritter Post _(KW43)_](03_SRS_OpenAPI.md)   
-Nächste Woche: [Fünfter Post _(KW46)_](05_Implementation.md)
+Letzte Woche: [Vierter Post _(KW45)_](04_UML_n_UCRS.md)   
+Nächste Woche: [Sechster Post _(KW47)_]()
 
 ---
 
