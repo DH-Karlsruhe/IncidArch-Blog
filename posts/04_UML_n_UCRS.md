@@ -1,4 +1,4 @@
-# Vierter Blogpost (KW44)
+# Vierter Blogpost (KW45)
 
 ## Software Requirements Specification
 
@@ -47,7 +47,7 @@ Der Hauptvorteil liegt jedoch eindeutig in dem Wiederverwenden bekannter Muster.
 
 ---  
 Letzte Woche: [Dritter Post _(KW43)_](03_SRS_OpenAPI.md)   
-Nächste Woche: [Fünfter Post _(KW45)_](TODO)
+Nächste Woche: [Fünfter Post _(KW46)_](05_Implementation.md)
 
 ---
 

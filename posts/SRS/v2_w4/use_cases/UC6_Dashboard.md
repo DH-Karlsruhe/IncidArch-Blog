@@ -34,4 +34,4 @@ Die Vorbedingungen für diesen Anwendungsfall sind:
 Der Benutzer kann von seinem Dashboard aus auf andere Funktionen und Bereiche der Anwendung zugreifen.
 
 # 6. Aufwandsschätzung
-Für die Implementierung des Dashboards wird ein Aufwand von 6 Punkten geschätzt.
+Für die Implementierung des Dashboards wird ein Aufwand von 5 Punkten geschätzt.

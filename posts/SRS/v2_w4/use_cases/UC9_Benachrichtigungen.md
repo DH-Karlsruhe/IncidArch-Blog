@@ -33,4 +33,4 @@ Die Vorbedingungen für diesen Anwendungsfall sind:
 Die Benutzer können die erhaltenen Benachrichtigungen anzeigen, verwalten und auf sie reagieren.
 
 # 6. Aufwandsschätzung
-Für die Implementierung der Benachrichtigungsfunktion wird ein Aufwand von 10 Punkten geschätzt.
+Für die Implementierung der Benachrichtigungsfunktion wird ein Aufwand von 8 Punkten geschätzt.

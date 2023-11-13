@@ -68,6 +68,6 @@ Der Benutzer wird für die jeweilige Organisation > Abteilung > Team von einem A
 damit es nicht zu Datenlecks kommt.
 
 # 6. Aufwandsschätzung
-Für diese Funktionalität wird ein Aufwand von 7 Punkten geschätzt
+Für diese Funktionalität wird ein Aufwand von 8 Punkten geschätzt
 
 {% include mermaid.html %}
