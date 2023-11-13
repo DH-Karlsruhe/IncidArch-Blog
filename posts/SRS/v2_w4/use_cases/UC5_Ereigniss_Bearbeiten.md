@@ -90,4 +90,4 @@ Die Vorbedingungen für diesen Anwendungsfall sind:
 Die Aktualisierungen am Ereignis werden im Verbandbuch gespeichert und können von autorisierten Benutzern eingesehen werden.
 
 # 6. Aufwandsschätzung
-Für diese Funktionalität wird ein Aufwand von 10 Punkten geschätzt.
+Für diese Funktionalität wird ein Aufwand von 8 Punkten geschätzt.

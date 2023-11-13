@@ -29,6 +29,17 @@ Probiert es doch gleich mal aus 😊👇 (ganz unten auf der Seite)
  2. [Zweiter Post _(KW43)_](posts/01_Team.md)
  3. [Dritter Post _(KW44)_](posts/03_SRS_OpenAPI.md)
  4. [Vierter Post _(KW45)_](posts/04_UML_n_UCRS.md)
-
+ 5. [Fünfter Post _(KW46)_](posts/05_Implementation.md)
 
 {% include kommentare.html %}
+
+
+## _Quicklinks zu den Projekten unserer Kommilitonen_ 
+
+ - <a href="https://github.com/Chrissi-Ruege/HealthKeeper/discussions" target="_blank">HealthKeeper<a/>
+ - <a href="https://github.com/dhbw-ka-tinf22b5-dinder/Dinder/discussions/categories/projektblog" target="_blank">Dinder<a/>
+ - <a href="https://medium.com/@babyport" target="_blank">Babyport<a/>
+ - <a href="https://puggingtons.github.io/habittrackingblog/" target="_blank">Habittracking<a/>
+ - <a href="https://github.com/mausio/corgi-shop-doc/discussions" target="_blank">Corgi-Shop<a/>
+ - <a href="https://michaelsteininger2003.wordpress.com/" target="_blank">SchoolPlanner<a/>
+

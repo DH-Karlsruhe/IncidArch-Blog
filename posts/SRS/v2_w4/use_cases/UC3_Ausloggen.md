@@ -39,4 +39,4 @@ Die Vorbedingungen für diesen Anwendungsfall sind:
 Der Benutzer ist erfolgreich abgemeldet und wird zur Anmeldeseite weitergeleitet.
 
 # 6. Aufwandsschätzung
-Für diese Funktionalität wird ein Aufwand von 3 Punkten geschätzt.
+Für diese Funktionalität wird ein Aufwand von 2 Punkten geschätzt.

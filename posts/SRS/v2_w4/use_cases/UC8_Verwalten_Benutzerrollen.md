@@ -34,4 +34,4 @@ Die Vorbedingungen für diesen Anwendungsfall sind:
 Die Benutzerrollen werden aktualisiert und die Änderungen haben Auswirkungen auf die Berechtigungen und Zugriffe der Benutzer in der Anwendung.
 
 # 6. Aufwandsschätzung
-Für die Implementierung der Benutzerverwaltung und Verwaltung von Benutzerrollen wird ein Aufwand von 14 Punkten geschätzt.
+Für die Implementierung der Benutzerverwaltung und Verwaltung von Benutzerrollen wird ein Aufwand von 13 Punkten geschätzt.
