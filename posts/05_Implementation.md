@@ -194,3 +194,4 @@ Nächste Woche: [Sechster Post _(KW47)_]()
 ---
 
 {% include kommentare.html %}
+{% include mermaid.html %}
