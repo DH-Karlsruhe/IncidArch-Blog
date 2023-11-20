@@ -30,6 +30,7 @@ Probiert es doch gleich mal aus 😊👇 (ganz unten auf der Seite)
  3. [Dritter Post _(KW44)_](posts/03_SRS_OpenAPI.md)
  4. [Vierter Post _(KW45)_](posts/04_UML_n_UCRS.md)
  5. [Fünfter Post _(KW46)_](posts/05_Implementation.md)
+ 6. [Sechster Post _(KW47)_](posts/06_Implementation.md)
 
 {% include kommentare.html %}
 
