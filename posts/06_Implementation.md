@@ -4,20 +4,20 @@ Heyho 👋
 
 In Woche 6 haben wir uns versiert mit der eigentlichen Implementierung unseres Incident Archivs befasst.
 
-## Frontend
+# Frontend
+## AboutScreen
 Unten kannst du einen exklusiven Blick auf die erste Testversion unserer About-Seite werfen. Als GIF eingefangen, bietet es einen flüchtigen, aber aufregenden Einblick in das, woran wir arbeiten. Schau es dir an und lass uns wissen, was du denkst!
-##AboutScreen
-![](../images/About.gif)
 
-Schau mal in das nächste GIF! Dort kannst du sehen, wie mühelos ein Unfallbericht erstellt werden kann. Wir haben etwas an Details gefeilt, um den Prozess so benutzerfreundlich wie möglich zu gestalten. 
+![](../images/About.gif)
 
 ## Unfallbericht
 
+Schau mal in das nächste GIF! Dort kannst du sehen, wie mühelos ein Unfallbericht erstellt werden kann. Wir haben etwas an Details gefeilt, um den Prozess so benutzerfreundlich wie möglich zu gestalten. 
+
 ![](../images/Unfall.gif)
 
-Last but not least, im finalen GIF siehst du Theoretisch wie man sich einloggt und Zugang zu unserem exklusiven Bereich zu erhalten. 
-
 ## Login + Dashboard
+Last but not least, im finalen GIF siehst du Theoretisch wie man sich einloggt und Zugang zu unserem exklusiven Bereich zu erhalten. 
 
 ![](../images/login.gif)
 
