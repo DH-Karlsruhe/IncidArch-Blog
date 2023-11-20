@@ -1,8 +1,8 @@
 # Fünfter Blogpost (KW46)
 
-Hallihallo 👋  
+Hallöchen 👋  
 
-In Woche 4 haben wir uns etwas mit der eigentlichen Implementierung unseres Incident Archivs befasst.
+In Woche 5 haben wir uns etwas mit der eigentlichen Implementierung unseres Incident Archivs befasst.
 Dabei 
 
 Zudem haben wir unsere [Software Requirements Specification](SRS/v2_w4/SoftwareRequirementsSpecification.md) dem Feedback nach angepasst.  
