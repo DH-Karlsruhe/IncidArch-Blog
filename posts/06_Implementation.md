@@ -59,10 +59,9 @@ und die Entwickler-Erfahrung zu verbessern
 und Bugs zu minimieren.  
 
 
-
 ---  
 Letzte Woche: [Fünfter Post _(KW46)_](05_Implementation.md)
-Nächste Woche: [Siebter Post _(KW48)_]()
+Nächste Woche: [Siebter Post _(KW48)_](07_Implementation.md)
 
 ---
 
