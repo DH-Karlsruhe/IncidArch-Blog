@@ -48,7 +48,7 @@ bislang arbeiten wir jedoch auf einen ersten, funktionalen Kandidaten hin
 und das Design lässt sich in einer späteren Phase erneut aufgreifen. 
 
 ---  
-Letzte Woche: [Sechster Post _(KW47)_](06_Implementation.md)
+Letzte Woche: [Sechster Post _(KW47)_](06_Implementation.md)  
 Nächste Woche: [Achter Post _(KW49)_]()
 
 ---
