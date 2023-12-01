@@ -32,6 +32,7 @@ Probiert es doch gleich mal aus 😊👇 (ganz unten auf der Seite)
  5. [Fünfter Post _(KW46)_](posts/05_Implementation.md)
  6. [Sechster Post _(KW47)_](posts/06_Implementation.md)
  7. [Siebter Post _(KW48)_](posts/07_Implementation.md)
+ 8. [Achter Post _(KW49)_](posts/08_ArchiSigniRequi.md)
 
 {% include kommentare.html %}
 
