@@ -47,25 +47,26 @@ Für die Spalten **Geschäftswert** und **technisches Risiko** haben wir folgend
 
 ### Maintainability
 
-|    Konkret    |     Qualitätsattributs-Szenarien      | Geschäftswert | Technisches Risiko |  
-|---------------|---------------------------------------|---------------|--------------------|
-| | | | |
-| | | | |
+| Konkret                                       | Qualitätsattributs-Szenarien                     | Geschäftswert | Technisches Risiko |
+|-----------------------------------------------|-------------------------------------------------|---------------|--------------------|
+| Deno als moderne Backend-Laufzeitumgebung      | Verbesserte Leistung und Skalierbarkeit          | Medium💧        | Niedrig❄️             |
+| React Native und Expo als Frontend-Framework   | Effiziente Entwicklung plattformübergreifender mobiler Anwendungen | Hoch🔥 | Mittel💧 |
+| Zod-OpenAPI zur API-Validierung                | Standardisierte und sichere API-Kommunikation   | Hoch 🔥         | Niedrig❄️             |
 
 ### Security
 
-|    Konkret    |     Qualitätsattributs-Szenarien      | Geschäftswert | Technisches Risiko |  
-|---------------|---------------------------------------|---------------|--------------------|
-| | | | |
-| | | | |
+| Konkret                                       | Qualitätsattributs-Szenarien                     | Geschäftswert | Technisches Risiko |
+|-----------------------------------------------|-------------------------------------------------|---------------|--------------------|
+| Redundante Server und Lastenausgleich          | Hohe Serververfügbarkeit während Stoßzeiten     | Hoch🔥          | Mittel💧              |
+| Automatische Fehlererkennung und -behebung     | Gewährleistung der Datenintegrität und minimale Ausfallzeiten | Hoch🔥 | Niedrig❄️ |
+| Authentifizierung und Autorisierung            | Sicherstellung des Zugriffs nur für autorisierte Benutzer | Hoch🔥 | Hoch🔥 |
 
 ### Testability
 
-|    Konkret    |     Qualitätsattributs-Szenarien      | Geschäftswert | Technisches Risiko |  
-|---------------|---------------------------------------|---------------|--------------------|
-| | | | |
-| | | | |
-
+| Konkret                                       | Qualitätsattributs-Szenarien                     | Geschäftswert | Technisches Risiko |
+|-----------------------------------------------|-------------------------------------------------|---------------|--------------------|
+| Umfassende Tests für wichtige Funktionen und Randfälle | Frühe Fehlererkennung und -behebung          | Hoch🔥          | Niedrig❄️             |
+| Hohe Testabdeckung                            | Sicherstellung einer robusten und zuverlässigen Anwendung | Hoch🔥 | Niedrig❄️ |
 ## Architekturentscheidungen
 
 *Warum haben wir das so gelöst?*
