@@ -70,3 +70,18 @@ Für die Spalten **Geschäftswert** und **technisches Risiko** haben wir folgend
 ## Architekturentscheidungen
 
 *Warum haben wir das so gelöst?*
+### Architekturentscheidungen
+
+#### **Wahl der Backend-Laufzeitumgebung (Deno):**
+Die Entscheidung, Deno als moderne Backend-Laufzeitumgebung zu verwenden, basiert auf der Zielsetzung für verbesserte Leistung und Skalierbarkeit. Deno ermöglicht die Ausführung von TypeScript-Code im Backend und bietet dabei moderne Features sowie eine verbesserte Leistung im Vergleich zu traditionellen Laufzeitumgebungen.
+
+#### **Frontend-Framework (React Native und Expo):**
+Die Wahl von React Native und Expo als Frontend-Frameworks zielt darauf ab, eine effiziente Entwicklung plattformübergreifender mobiler Anwendungen zu ermöglichen. React Native ermöglicht die Entwicklung von nativen mobilen Apps mit TypeScript und React, während Expo zusätzliche Entwicklungs- und Bereitstellungstools bietet, um den Entwicklungsprozess zu optimieren.
+
+#### **API-Validierung mit Zod-OpenAPI:**
+Die Entscheidung, Zod-OpenAPI zur API-Validierung zu nutzen, wird getroffen, um eine standardisierte und sichere API-Kommunikation zu gewährleisten. Zod-OpenAPI ermöglicht die Definition von Datenstrukturen und API-Schemas in TypeScript, was zu einer verbesserten Sicherheit und Robustheit der Anwendung beiträgt.
+
+#### **Authentifizierung und Autorisierung:**
+Die Architekturentscheidung für eine robuste Authentifizierung und Autorisierung stellt sicher, dass der Zugriff auf die Anwendung nur für autorisierte Benutzer gewährt wird. Dies erfolgt durch die Implementierung von sicheren Authentifizierungsmechanismen und Rollenbasierten Zugriffskontrollen.
+
+Diese Architekturentscheidungen sind darauf ausgerichtet, die Ziele der Leistung, Sicherheit und Benutzerfreundlichkeit zu erreichen und bilden die Grundlage für die Entwicklung einer skalierbaren und zuverlässigen Anwendung.
