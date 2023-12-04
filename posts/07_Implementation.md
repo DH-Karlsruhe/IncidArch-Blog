@@ -49,7 +49,7 @@ und das Design lässt sich in einer späteren Phase erneut aufgreifen.
 
 ---  
 Letzte Woche: [Sechster Post _(KW47)_](06_Implementation.md)  
-Nächste Woche: [Achter Post _(KW49)_]()
+Nächste Woche: [Achter Post _(KW49)_](08_ArchiSigniRequi.md)
 
 ---
 
