@@ -9,7 +9,7 @@ den [architektonisch bedeutsamen Anforderungen](#architektonisch-bedeutsame-anfo
 
 Unsere architektonisch bedeutsamen Anforderungen sind in der Version 3 unserer  
 [Software Requirement Specification](SRS/v3_w8/SoftwareRequirementsSpecification.md) zu finden. ([Link zu ASR](SRS/v3_w8/architect_signi_req.md))  
-Der Utility-Baum sind dort als Markdown-Tabellen aufgeführt.
+Der Utility-Baum ist dort mit Überschriften und Markdown-Tabellen aufgeführt.
 
 
 ---  
