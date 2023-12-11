@@ -37,6 +37,39 @@ Siehe Use Case Diagram im Repository. Die Schwerpunkte unserer Entwicklung sind:
 - Ausloggen
 - Erstellen eines neuen Verbandsbuch-Ereignisses
 - Dashboard
+```mermaid
+graph TD
+  style Benutzer fill:#86B342,stroke:#000,stroke-width:2px,stroke-dasharray: 5, 5
+  style System fill:#3498DB,stroke:#000,stroke-width:2px,stroke-dasharray: 5, 5
+
+  subgraph Benutzer
+    Einloggen(( Einloggen))
+    Ausloggen((Ausloggen))
+    Erstellen_Verbandbuch-Ereignis(( Erstellen Verbandsbuch-Ereignis))
+    Dashboard(( Dashboard))
+    Infoseite((Infoseite))
+  end
+
+  subgraph System
+    Routing(( Routing))
+    Authentication(( Authentication))
+  end
+
+  style Einloggen fill:#F39C12,stroke:#000,stroke-width:2px
+  style Ausloggen fill:#E74C3C,stroke:#000,stroke-width:2px
+  style Erstellen_Verbandbuch-Ereignis fill:#3498DB,stroke:#000,stroke-width:2px
+  style Dashboard fill:#2ECC71,stroke:#000,stroke-width:2px
+  style Infoseite fill:#8E44AD,stroke:#000,stroke-width:2px
+  style Routing fill:#3498DB,stroke:#000,stroke-width:2px
+  style Authentication fill:#3498DB,stroke:#000,stroke-width:2px
+
+  Einloggen --> Authentication
+  Ausloggen --> Authentication
+  Erstellen_Verbandbuch-Ereignis --> Routing
+  Dashboard --> Routing
+  Infoseite --> Routing
+
+```
 
 ## Architekturstile
 Unsere Architektur basiert auf klaren Prinzipien und Entscheidungen:
