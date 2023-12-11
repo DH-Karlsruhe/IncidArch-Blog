@@ -7,8 +7,8 @@ IncidArch
 
 | Person           | Hauptbeitrag         | Stunden |
 |------------------|----------------------|---------|
-| Felix Blank      | Frontend-Entwicklung | 30      |
-| Nick Obreiter    | Backend-Entwicklung  | 35      |
+| Felix Blank      | Frontend-Entwicklung | 44      |
+| Nick Obreiter    | Backend-Entwicklung  | 43      |
 | Alexander Geier  | Projektmanagement    | 30      |
 | Cristiano Gomes  | Qualitätssicherung   | 25      |
 
@@ -18,16 +18,16 @@ IncidArch
 |---------------------|---------|
 | Requirement Analyse | 15      |
 | Project Management  | 20      |
-| Frontend-Entwicklung| 30     |
-| Backend-Entwicklung | 20     |
+| Frontend-Entwicklung| 40     |
+| Backend-Entwicklung | 30     |
 | Testing/QA          | 15     |
 
 ### Stunden pro Phase
 
 | Phase       | Stunden |
 |-------------|---------|
-| Planung     | 20      |
-| Umsetzung   | 50    |
+| Planung     | 30      |
+| Umsetzung   | 60    |
 | Testing     | 10     |
 | Dokumentation| 20      |
 
