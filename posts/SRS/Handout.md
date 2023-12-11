@@ -7,8 +7,8 @@ IncidArch
 
 | Person           | Hauptbeitrag         | Stunden |
 |------------------|----------------------|---------|
-| Felix Blank      | Frontend-Entwicklung | 44      |
-| Nick Obreiter    | Backend-Entwicklung  | 43      |
+| Felix Blank      | Backend-Entwicklung | 44      |
+| Nick Obreiter    | Frontend-Entwicklung  | 43      |
 | Alexander Geier  | Projektmanagement    | 30      |
 | Cristiano Gomes  | Qualitätssicherung   | 25      |
 
