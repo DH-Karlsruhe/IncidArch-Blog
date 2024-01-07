@@ -33,6 +33,8 @@ Probiert es doch gleich mal aus 😊👇 (ganz unten auf der Seite)
  6. [Sechster Post _(KW47)_](posts/06_Implementation.md)
  7. [Siebter Post _(KW48)_](posts/07_Implementation.md)
  8. [Achter Post _(KW49)_](posts/08_ArchiSigniRequi.md)
+ 9. [Neunter Post _(KW50)_](posts/09_Schichten-nach-Kruchten.md)
+ 10. [Zehnter Post _(KW51)_](posts/10_Semesterabschluss.md)
 
 {% include kommentare.html %}
 
