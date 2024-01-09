@@ -54,8 +54,6 @@
   - [6 Process View](#6-process-view)
   - [7 Deployment View](#7-deployment-view)
   - [8 Implementation View](#8-implementation-view)
-    - [8.1 Overview](#81-overview)
-    - [8.2 Layer](#82-layer)
   - [9 Data View](#9-data-view)
   - [10 Size and Performance](#10-size-and-performance)
   - [11 Quality](#11-quality)
@@ -339,17 +337,17 @@ Die Teammitglieder sind:
 
 ## 6 Process View
 
-TODO
+Wir setzen auf transaktionelle Abläufe, die von unserem zustandslosen Backend verarbeitet werden.  
+Diese richten sich nach den Use-Cases und sind dort entsprechend in der Ablaufbeschreibung dokumentiert.
 
 ## 7 Deployment View
 
 ## 8 Implementation View
 
-TODO
-
-### 8.1 Overview
-
-### 8.2 Layer
+Im Frontend gehen wird nach dem atomarem Modell vor  
+und versuchen möglichst alle Konstrukte in kleine,  
+wiederverwendbare Teile zu zerlegen.  
+Ähnlich im Backend, hier setzen wir auf Modularität mit der Middleware-zentrierten Architektur.  
 
 ## 9 Data View
 
@@ -510,4 +508,11 @@ erDiagram
 
 ## 11 Quality
 
-TODO: Architekturtaktik
+Im Sinne einer besseren Qualität setzen wir auf einfache Ausgangsbestimmungen und Eigenarbeit.  
+Wir verwenden nur TypeScript mit den minimal nötigen Bibliotheken,  
+sowie eine automatisierte API-Dokumentationen nach OpenAPI-Spezifikation,  
+die mithilfe des OpenAPI-TS-Werkzeugs in eine TypeScript-Definitions-Datei umgewandelt werden kann.
+
+Die Wahl von TypeScript als einzige Entwicklungssprache haben wir ebenfalls im Sinne der Einfachheit getroffen,    
+aufgesattelt auf die V8-JavaScript-Engine im Frontend, wie Backend,  
+war naheliegend, da wir so eine typsichere und dennoch agile Entwicklung erzielen.
