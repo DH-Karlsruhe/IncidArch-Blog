@@ -333,14 +333,41 @@ Die Teammitglieder sind:
 
 ### 5.1 Overview
 
+Aus logischer Sicht findet in jedem Fall am Frontend zunächst eine Vor-Validierung statt,  
+die anschließend vom Backend legitimiert wird, bevor tatsächliche Änderungen vorgenommen werden.  
+Ziel ist es zumindest für die Vorfälle als Kern eine git-ähnliche Historie aufbauen,  
+wobei lediglich das Anhängen von Änderungen möglich sein soll, um dem Verfälschen von Berichten vorzubeugen.  
+
+Eine weitere Komponente, im Sinne des Datenschutzes im Bereich der Integrität und Vertraulichkeit,  
+stellt die Application-Layer-Encryption dar, die einer Klartext-Abspeicherung in der Datenbank vorbeugen soll.  
+Ein entsprechendes Schlüsselmanagement ist nicht angedacht,  
+der Applikations-Schlüssel wird jedoch mit dem Start des Backend als Umgebungsvariable bzw. Startparameter übergeben.
+
 ### 5.2 Architecturally Significant Design Packages
+
+![Komponentendiagramm](./IncidArch_Komponentdiagramme.svg)
 
 ## 6 Process View
 
 Wir setzen auf transaktionelle Abläufe, die von unserem zustandslosen Backend verarbeitet werden.  
 Diese richten sich nach den Use-Cases und sind dort entsprechend in der Ablaufbeschreibung dokumentiert.
+Ein großer Vorteil der zustandslosen Verarbeitung ist die einfache Skalierung,  
+die nicht zuletzt durch die Verwendung von Postgres-Connection-Pools als gestützt wird.
 
 ## 7 Deployment View
+
+Das Deployment der Apps erfolgt im Fall über die beiden marktführenden App-Stores,
+den Google Play-Store und den Apple App-Store.  
+Die Web-App werden wir über ein CDN statisch bereitstellen,  
+was sich aufgrund der losen Kopplung zum Backend anbietet.  
+Ein klassischer Anbieter ist hier Cloudflare mit Cloudflare-Pages  
+und deren CDN, mit Edge-Nodes in allen großen Rechenzentren.  
+
+Die eigentliche Bereitstellung (Deployment) wird,  
+wie der Render-Vorgang des Tech-Blogs,  
+voraussichtlich über Github Actions oder einen vergleichbaren Automatisierungs-Services konfiguriert.  
+Nicht zuletzt wegen bereits existierenden Workflow-Vorlagen.  
+
 
 ## 8 Implementation View
 
@@ -502,9 +529,18 @@ erDiagram
     Statistics ||--|| EncodedStatistics : "stores securly"
 ```
 
-
 ## 10 Size and Performance
 
+Die Größe der Apps spielt eine große Rolle kann bei React Native eine Hürde darstellen.  
+Mit dem in Expo vorkonfigurierten Webpack-Bundler ist jedoch eine ausreichende Komprimierung möglich,  
+sodass das Frontend auch als relativ leichtgewichtige WebApp bereitgestellt werden kann.  
+
+Um die Performance zu steigern orientieren wir uns an den Best-Practices der jeweiligen Ecosysteme,
+sodass in jedem Fall, am Front-/ wie Backend, komplexe Abläufe in kleine,  
+testbare Funktionseinheiten unterteilt werden können.  
+
+Der Backend-Code lässt sich in einem open-Beta-Feature von Deno zudem kompilieren,  
+um noch bessere Ergebnisse in der Verarbeitungszeit zu erzielen.
 
 ## 11 Quality
 
