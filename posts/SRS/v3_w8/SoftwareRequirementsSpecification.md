@@ -12,8 +12,8 @@
     - [2.1 Vision](#21-vision)
     - [2.2 Use Case Diagram](#22-use-case-diagram)
     - [2.3 Technologie Stack](#23-technologie-stack)
-    - [Story-Points (Aufwandschätzung)](#story-points-aufwandschätzung)
-  - [3. Architecturally Significant Requirement (ASR)](architect_signi_req.md)
+    - [2.4 Story-Points (Aufwandschätzung)](#24-story-points-aufwandschätzung)
+  - [3. Architectural Goals and Constraints](#3-architectural-goals-and-constraints)
   - [4. Spezifische Anforderungen](#4-spezifische-anforderungen)
     - [4.1 Funktionalität](#41-funktionalität)
       - [4.1.1 Ein Konto erstellen](#411-ein-konto-erstellen)
@@ -47,7 +47,16 @@
       - [4.8.4 Kommunikationsschnittstellen](#484-kommunikationsschnittstellen)
     - [4.9 Lizenzanforderungen](#49-lizenzanforderungen)
     - [4.10 Rechtliche, Urheberrechts- und andere Hinweise](#410-rechtliche-urheberrechts--und-andere-hinweise)
-  - [4. Unterstützende Informationen](#4-unterstützende-informationen)
+    - [4.11 Unterstützende Informationen](#411-unterstützende-informationen)
+  - [5 Logical View](#5-logical-view)
+    - [5.1 Overview](#51-overview)
+    - [5.2 Architecturally Significant Design Packages](#52-architecturally-significant-design-packages)
+  - [6 Process View](#6-process-view)
+  - [7 Deployment View](#7-deployment-view)
+  - [8 Implementation View](#8-implementation-view)
+  - [9 Data View](#9-data-view)
+  - [10 Size and Performance](#10-size-and-performance)
+  - [11 Quality](#11-quality)
 
 ## 1. Einführung
 
@@ -55,17 +64,17 @@
 In dieser Software-Anforderungsspezifikation (SRS) werden sämtliche Anforderungen für die Applikation "IncidArch" umfassend dargelegt. Sie vermittelt eine umfassende Übersicht über das Projekt sowie dessen Vision. Zudem werden ausführliche Einblicke in die geplanten Features und die Rahmenbedingungen des Entwicklungsprozesses gewährt. Diese SRS ist ein entscheidendes Dokument, das als Leitfaden für das gesamte Projekt dient.
 
 ### 1.2 Umfang
-Das Projekt wird als Android-App, IPhone-App und als Website umgesetzt.
+Das Projekt wird als Android-App, iPhone-App und als Website umgesetzt.
 
 Das Verbandsbuch-System soll folgende Hauptfunktionen bieten:
 
-- **Ereigniserstellung und -bearbeitung**: Benutzer sollen in der Lage sein, neue Verbandsbuch-Ereignisse zu erstellen und bestehende Ereignisse zu bearbeiten. Die erstellten Ereignisse müssen Datum, Uhrzeit, Ort, Art des Vorfalls und eine Beschreibung enthalten. Die Änderungen müssen im Verbandbuch sichtbar sein.
+- **Ereigniserstellung und -bearbeitung**: Benutzer sollen in der Lage sein, neue Verbandsbuch-Ereignisse zu erstellen und bestehende Ereignisse zu bearbeiten. Die erstellten Ereignisse müssen je das Datum, eine Uhrzeit, einen Ort, die Art des Vorfalls und eine Beschreibung enthalten. Die Änderungen müssen im Verbandbuch sichtbar sein.
 
 - **Dashboard-Übersicht**: Das System soll ein Dashboard bereitstellen, das eine Übersicht über alle Verbandsbuch-Ereignisse bietet. Dieses Dashboard sollte Filter- und Suchfunktionen für verschiedene Zeiträume und Kategorien umfassen. Diagramme und Grafiken zur Visualisierung von Trends und Mustern sollen ebenfalls verfügbar sein.
 
 - **Berichterstellung**: Administratoren sollen die Möglichkeit haben, benutzerdefinierte Berichte basierend auf verschiedenen Kriterien zu generieren. Diese Berichte sollten in verschiedenen Formaten (PDF, Excel) herunterladbar sein und alle relevanten Informationen zu den Ereignissen enthalten.
 
-- **Benutzerverwaltung und Rollenzuweisung**: Systemadministratoren sollen Benutzerrollen erstellen, bearbeiten und löschen können. Vordefinierte Rollen wie "Mitarbeiter," "Sicherheitsbeauftragter" und "Manager" sollen vorhand sein, und Administratoren sollen individuellen Benutzern oder Benutzergruppen Rollen und Berechtigungen zuweisen können. Diese Rollen sollen die Aktionen regeln, die ein Benutzer im Verbandsbuch-System ausführen kann.
+- **Benutzerverwaltung und Rollenzuweisung**: Systemadministratoren sollen Benutzerrollen erstellen, bearbeiten und löschen können. Vordefinierte Rollen wie "Mitarbeiter," "Sicherheitsbeauftragter" und "Manager" sollen vorhanden sein, und Administratoren sollen individuellen Benutzern oder Benutzergruppen Rollen und Berechtigungen zuweisen können. Diese Rollen sollen die Aktionen regeln, die ein Benutzer im Verbandsbuch-System ausführen kann.
 
 - **Benachrichtigungen**: Sicherheitsbeauftragte sollen automatische Benachrichtigungen erhalten, wenn Vorfallskategorien oder Schweregrade im Verbandsbuch erfasst werden. Diese Benachrichtigungen sollen anpassbar sein und in Echtzeit gesendet werden, um auf schwerwiegende Vorfälle schnell reagieren zu können.
 
@@ -88,7 +97,7 @@ Das Dokument gliedert sich in die folgenden Abschnitte:
 
 - **2. Gesamtbeschreibung**: Hier finden Sie Informationen zur Vision des Projekts, ein Use-Case-Diagramm und den verwendeten Technologiestack.
 
-- **3. Spezifische Anforderungen**: Dieser Abschnitt beschreibt ausführlich die funktionellen, benutzerfreundlichen, zuverlässigen, leistungsbezogenen, unterstützenden, designbezogenen und rechtlichen Anforderungen, die die IncidArch-Anwendung betreffen.
+- **3. Spezifische Anforderungen**: Dieser Abschnitt beschreibt ausführlich die funktionellen, benutzerfreundlichen, zuverlässigen, leistungsbezogenen, unterstützenden, designbezogenen und rechtlichen Anforderungen, welche die IncidArch-Anwendung betreffen.
 
 - **4. Unterstützende Informationen**: Abschließend werden hier Kontaktmöglichkeiten zum IncidArch-Team und Verweise auf den IncidArch-Blog für zusätzliche Details bereitgestellt.
 
@@ -132,11 +141,25 @@ Github Actions (Deployment)
 Docker (Deployment)  
 GitHub (Development & PM)  
 
-### Story-Points (Aufwandschätzung)  
+### 2.4 Story-Points (Aufwandschätzung)  
 
 Bei der Aufwandsschätzung verwenden wir folgende Skala: 
-![Alt text](../../../images/story_point_matrix.png)
+![story point matrix](../../../images/story_point_matrix.png)
 
+## 3. Architectural Goals and Constraints
+
+Da das Thema Sicherheit nicht zuletzt wegen der DSGVO ein akutes Thema ist,  
+setzen wir bei der Entwicklung auf Eigenentwicklung und vorerst auf Applikation-Layer-Encryption,  
+sodass wir stets die Kontrolle über die Datenflüsse haben  
+und nicht zu sehr auf Black-Box-Bibliotheken vertrauen müssen.  
+
+Demnach ergeben sich hier in der Entwicklung und der Planung kleine Änderungen,  
+sodass unser Datenbank-Schemata sich nach der geteilten Verschlüsselungsart richten muss (vgl. [9. Data View](#9-data-view)).  
+Dem Schema ist zu entnehmen, dass wir keine Nutzerdaten im Klartext persistieren möchten,  
+wodurch wir im Falle eines Integritätsbruchs keine Gefahr besteht.  
+
+Im Sinne der Benutzbarkeit und Transparenz setzen wir zudem auf eine konsistente Dokumentation,  
+sowie Best-Practices (aus dem UX-Feld und während der Entwicklung).
 
 ## 4. Spezifische Anforderungen
 
@@ -298,10 +321,234 @@ wie der MIT-Lizenz.
 Unsere Ausarbeitungen sind zunächst unserem, individuellen Urheberrecht nach geschützt,  
 solange wir uns nicht im Konsens auf eine Lizenzänderung geeinigt haben.
 
-## 4. Unterstützende Informationen
+### 4.11 Unterstützende Informationen
 Für weitere Informationen können Sie das IncidArch Team kontaktieren oder unseren [IncidArch Blog](https://dh-karlsruhe.github.io/IncidArch-Blog/) überprüfen.
 Die Teammitglieder sind:
 - Felix Blank
 - Nick Obreiter
 - Alexander Geier
 - Cristiano Gomes
+
+## 5 Logical View
+
+### 5.1 Overview
+
+Aus logischer Sicht findet in jedem Fall am Frontend zunächst eine Vor-Validierung statt,  
+die anschließend vom Backend legitimiert wird, bevor tatsächliche Änderungen vorgenommen werden.  
+Ziel ist es zumindest für die Vorfälle als Kern eine git-ähnliche Historie aufbauen,  
+wobei lediglich das Anhängen von Änderungen möglich sein soll, um dem Verfälschen von Berichten vorzubeugen.  
+
+Eine weitere Komponente, im Sinne des Datenschutzes im Bereich der Integrität und Vertraulichkeit,  
+stellt die Application-Layer-Encryption dar, die einer Klartext-Abspeicherung in der Datenbank vorbeugen soll.  
+Ein entsprechendes Schlüsselmanagement ist nicht angedacht,  
+der Applikations-Schlüssel wird jedoch mit dem Start des Backend als Umgebungsvariable bzw. Startparameter übergeben.
+
+### 5.2 Architecturally Significant Design Packages
+
+![Komponentendiagramm](./IncidArch_Komponentdiagramme.svg)
+
+## 6 Process View
+
+Wir setzen auf transaktionelle Abläufe, die von unserem zustandslosen Backend verarbeitet werden.  
+Diese richten sich nach den Use-Cases und sind dort entsprechend in der Ablaufbeschreibung dokumentiert.
+Ein großer Vorteil der zustandslosen Verarbeitung ist die einfache Skalierung,  
+die nicht zuletzt durch die Verwendung von Postgres-Connection-Pools als gestützt wird.
+
+## 7 Deployment View
+
+Das Deployment der Apps erfolgt im Fall über die beiden marktführenden App-Stores,
+den Google Play-Store und den Apple App-Store.  
+Die Web-App werden wir über ein CDN statisch bereitstellen,  
+was sich aufgrund der losen Kopplung zum Backend anbietet.  
+Ein klassischer Anbieter ist hier Cloudflare mit Cloudflare-Pages  
+und deren CDN, mit Edge-Nodes in allen großen Rechenzentren.  
+
+Die eigentliche Bereitstellung (Deployment) wird,  
+wie der Render-Vorgang des Tech-Blogs,  
+voraussichtlich über Github Actions oder einen vergleichbaren Automatisierungs-Services konfiguriert.  
+Nicht zuletzt wegen bereits existierenden Workflow-Vorlagen.  
+
+
+## 8 Implementation View
+
+Im Frontend gehen wird nach dem atomarem Modell vor  
+und versuchen möglichst alle Konstrukte in kleine,  
+wiederverwendbare Teile zu zerlegen.  
+Ähnlich im Backend, hier setzen wir auf Modularität mit der Middleware-zentrierten Architektur.  
+
+## 9 Data View
+
+Das vorläufige ER-Diagramm für unsere verschlüsselte/private Persistierung:
+
+```mermaid
+
+erDiagram
+    %% # Tables
+    %% "🏦🔒" Has to be locked by some sort of key.
+    %% "🃏🔑": Application Key - provided @runtime
+
+    User {
+        string uuid "🗝️PK"
+        %% auth
+        string emailHash "#hashed for initial identification"
+        string email "🃏🔑 (to decrypt @runtime)"
+        string salt "## RandomString ##"
+        string password "#Hashed(clr_pw + salt)"
+        %% personal information
+        string first_name "🏦🔒"
+        string last_name "🏦🔒"
+        enum gender "<Optional> (🏦🔒)" 
+        date birthday "<Optional> (🏦🔒)"
+        string emergency_number "🏦🔒"
+        bool locked "for new Authenticated Requests"
+    }
+
+    Incident {
+        %% on User alteration this guy gets a new intermediate key
+        %% and all the dependencies have to be updated..
+        %% Change should only be commitable as full change object!
+        number incident_id "🗝️PK"
+        %%string intermed_key "🔓FK  (?!)"
+        %% would allow adding new valid obj creation for everyone!
+        %%  => possibly encrypt it alongside intermediate_key_access?
+        blob encoded_incident "🏦🔒"
+    }
+    
+    EncodedIncident {
+        object IncidentDocument
+    }
+
+    OrganizationUserRole {
+        uuid user_id "🔓FK"
+        number organization_id "🔓FK"
+        enum application_permission  "🃏🔑: r_team|rw_team|r_department|rw_department|r_organization|rw_organization|r_all|rw_all"
+    }
+    
+    Organization {
+        number organization_id "🗝️PK"
+        uuid owner "🔓FK"
+        number organization_key_file "Public-Key-Set (! Should not be exposed.)"
+        number fallback_key "🔓FK"
+        string name
+        enum corporate_type
+        boolean lock "If set freezes all operations on organization."
+    }
+    
+    Metadata {
+        %% Startdatum für statistische Auswertung
+        date start_of_probing
+        string jwt_secret "API-Integrity"
+        string general_key "General-Public-Key (Fallback, etc.)"
+        string application_key "🃏🔑 Encrypts backend_processable @runtime"
+    }
+
+%%    IntermediateKeystore {
+%%        number d "🔓FK"
+%%        number fallback_key "🔓FK"
+%%    }
+
+    UserKeystore {
+        number key_id "🗝️PK"
+        uuid user "🔓FK"
+        string key_file "Public-Key-Set"
+    }
+
+    UserIncidentKey {
+        %% could also describe role of user in incident for organization
+        %% althoug thats versioned inside the IncidentDocument
+        uuid vault_owner "🔓FK"
+        number incident_id "🔓FK"
+        string my_intermediate_key_access "Incident decrypting key"
+    }
+
+    OrganizationIncidentKey {
+        %% could also describe role of user in incident for organization
+        %% althoug thats versioned inside the IncidentDocument
+        uuid vault_owning_organization "🔓FK"
+        number incident_id "🔓FK"
+        string orga_intermediate_key_access "Incident decrypting key"
+    }
+
+    FallbackKeystore {
+        %% Row Storage to prevent attackers from concluding priv-keys
+        %% yet practically you can regenerate
+        number fallback_key
+        string priv_key_file "Encoded with General-Key"
+    }
+
+    FallbackRestoration {
+        number fallback_key "🔓FK"
+        datetime used_at
+        number organization_id "🔓FK"
+    }
+
+    %% 
+    %% # Relations
+    %% 
+    %% Witness is being recorded..
+    %% Person is recorder on zero or more incidents. (or no recorder @all)
+
+    %% make zero imposible & use dummy for 'no permissions'/'bare person'
+    Incident ||--|| EncodedIncident: "contains"
+    %%Incident ||--|| UserKeystore: "intermediary secures"
+    User ||--|| Organization : "owns with 'rw_all'"
+    User }|--|| OrganizationUserRole : "is part of"
+    Organization ||--|{ OrganizationUserRole : "is part of" 
+
+    UserKeystore }|--|| User : "identifies"
+
+    Metadata ||--|{ Organization : "is within"
+
+    FallbackKeystore ||--o| Organization : "secures on fallback"
+
+    %% Intermediary Keys
+    OrganizationIncidentKey ||--|| Incident : "secures"
+    OrganizationIncidentKey }|--|| Organization : "holds"
+
+    UserIncidentKey }|--|| Incident : "allows for de-/en-cryption"
+    UserIncidentKey }|--|| User : "holds"
+
+    %% should log restorations
+    %% restiration is opt-out.
+    FallbackRestoration }|--|| FallbackKeystore : "logs usage off"
+    FallbackRestoration }|--o| Organization : "rescues organization key"
+
+    %% Statistics
+    Statistics {
+        number organization_id
+        blob ongoing_encoded_statistics
+        %% could be normalized into chunks of encoded statistics,
+        %% althoug some form of procedural statistics would be great.
+    }
+
+    EncodedStatistics {
+
+    }
+
+    Statistics ||--|| Organization : "produces and evaluates"
+    Statistics ||--|| EncodedStatistics : "stores securly"
+```
+
+## 10 Size and Performance
+
+Die Größe der Apps spielt eine große Rolle kann bei React Native eine Hürde darstellen.  
+Mit dem in Expo vorkonfigurierten Webpack-Bundler ist jedoch eine ausreichende Komprimierung möglich,  
+sodass das Frontend auch als relativ leichtgewichtige WebApp bereitgestellt werden kann.  
+
+Um die Performance zu steigern orientieren wir uns an den Best-Practices der jeweiligen Ecosysteme,
+sodass in jedem Fall, am Front-/ wie Backend, komplexe Abläufe in kleine,  
+testbare Funktionseinheiten unterteilt werden können.  
+
+Der Backend-Code lässt sich in einem open-Beta-Feature von Deno zudem kompilieren,  
+um noch bessere Ergebnisse in der Verarbeitungszeit zu erzielen.
+
+## 11 Quality
+
+Im Sinne einer besseren Qualität setzen wir auf einfache Ausgangsbestimmungen und Eigenarbeit.  
+Wir verwenden nur TypeScript mit den minimal nötigen Bibliotheken,  
+sowie eine automatisierte API-Dokumentationen nach OpenAPI-Spezifikation,  
+die mithilfe des OpenAPI-TS-Werkzeugs in eine TypeScript-Definitions-Datei umgewandelt werden kann.
+
+Die Wahl von TypeScript als einzige Entwicklungssprache haben wir ebenfalls im Sinne der Einfachheit getroffen,    
+aufgesattelt auf die V8-JavaScript-Engine im Frontend, wie Backend,  
+war naheliegend, da wir so eine typsichere und dennoch agile Entwicklung erzielen.
