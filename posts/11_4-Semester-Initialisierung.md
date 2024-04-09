@@ -1,13 +1,31 @@
 # 4. Semester Start _(KW15/24)_
 
-Zum Beginn des vierten Semesters ändert sich einiges an unserem Projekt.  
+In der Welt der Softwareentwicklung ist eines gewiss: Fehler gehören dazu. 
+Doch was zählt, ist nicht nur das Eingeständnis dieser Fehler, sondern vor 
+allem das Lernen aus ihnen und die Integration dieser Erfahrungen in zukünftige Projekte.
+
+Zum Beginn des vierten Semesters haben wir diese Lektion auf eine etwas harte Tour gelernt.
+Ursprünglich hatten wir uns vorgenommen, eine umfangreiche Liste von Funktionen 
+für die erste Version unserer Software zu implementieren. Unsere Ambitionen waren hoch, 
+und wir waren entschlossen, eine perfekte erste Version zu liefern.
+Die Realität der Softwareentwicklung ist oft komplexer als erwartet, 
+und so stießen wir auf zahlreiche unvorhergesehene Herausforderungen. 
+Die Zeit, die wir für die Implementierung dieser umfangreichen Funktionsliste benötigten,
+erwies sich als viel länger als erwartet. Wir mussten uns eingestehen, dass ein pünktlicher 
+Release der ersten Version in Gefahr geriet.
 Wir haben uns dazu entschieden das Backend als Teilprojekt fallen zu lassen,  
 um in naher Zukunft als Team primär an dem Frontend, der App, arbeiten zu können.  
 
 
 ## Frontend-Änderungen
 
-TODO
+Zunächst einmal liegt unser Hauptaugenmerk darauf, es dem Benutzer zu ermöglichen, das Produkt zu kaufen. Dazu gehört die Implementierung eines einfachen und benutzerfreundlichen Kaufprozesses, der es dem Nutzer ermöglicht, seine gewünschten Artikel schnell und unkompliziert zu erwerben.
+
+Darüber hinaus legen wir großen Wert darauf, dass sich die Benutzer in der App anmelden können und entsprechende Benutzerprofile erstellt werden. 
+
+Der private Bereich ist ein weiterer Schwerpunkt unserer aktuellen Entwicklungsbemühungen. Hier können die Benutzer auf eine Liste von Unfallberichten zugreifen, die für sie relevant sind. Dieser Bereich wird sorgfältig gestaltet, um sicherzustellen, dass die Benutzer die benötigten Informationen schnell und einfach finden können.
+
+Schließlich, wenn es unsere Zeit erlaubt, planen wir die Implementierung einer Hierarchie der Vorgesetzten, die die gemeldeten Unfälle einsehen können. Dieser Bereich ist zwar nicht unbedingt für die erste Version unserer App erforderlich, aber wir erkennen die Bedeutung einer solchen Funktion für die langfristige Benutzerzufriedenheit und Sicherheit.
 
 ## Backend-Änderungen
 
