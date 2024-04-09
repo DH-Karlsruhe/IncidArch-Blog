@@ -35,6 +35,7 @@ Probiert es doch gleich mal aus 😊👇 (ganz unten auf der Seite)
  8. [Achter Post _(KW49)_](posts/08_ArchiSigniRequi.md)
  9. [Neunter Post _(KW50)_](posts/09_Schichten-nach-Kruchten.md)
  10. [Zehnter Post _(KW51)_](posts/10_Semesterabschluss.md)
+ 11. [4. Semester Start _(KW15/24)_](posts/11_4-Semester-Initialisierung.md)
 
 {% include kommentare.html %}
 
