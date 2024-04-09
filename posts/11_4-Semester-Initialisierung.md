@@ -35,12 +35,13 @@ um allen Personen innerhalb einer Organisation den Zugriff auf eine Zeile zu erm
 
 ```postgres
 auth.uid() in (
-    select unique_person_id
+    select authUserId
     from organization o
     right outer join persons p
     on o.id = p.organization_id
 )
 ```
+_Wir differenzieren zwischen authentifizierten und Gast-Benutzern (Zeugen), deshalb eine "persons"-Tabelle nebst der standardmäßigen auth>users Tabelle._
 
 Standardmäßig ist bei diesem Feature alles gesperrt.
 Eine Anfrage liefert immer ein leeres Ergebnis, bis eine entsprechende Policy (Bedingung) einem Benutzenden oder einem Schlüssel die Freigabe für einen speziellen Vorgang (Select/Insert/Update/Delete) erteilt.
