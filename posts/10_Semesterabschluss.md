@@ -21,7 +21,7 @@ denn bekanntlich wird es zuerst schwierig, bevor es einfach aussehen kann.
 
 ---  
 Letzte Woche: [Neunter Post _(KW49)_](09_Schichten-nach-Kruchten copy.md)  
-Nächste Woche: [...]()
+Nächste Woche: [4. Semester Start _(KW15/24)_](11_4-Semester-Initialisierung.md)
 
 ---
 
