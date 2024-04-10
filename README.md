@@ -15,13 +15,15 @@ Probiert es doch gleich mal aus 😊👇 (ganz unten auf der Seite)
 
 ## Tech Stack
 - [Typescript](https://www.typescriptlang.org/) (als einzige Sprache)
-- [Deno](https:/deno.land) (modern TS Runtime)
-- [Hono Framework mit Zod-OpenAPI Middleware](https://www.npmjs.com/package/@hono/zod-openapi)
 - [React Native](https://reactnative.dev/) (Frontend)
 - [Expo](https://expo.dev/) (Frontend)
 - [Github Actions](https://docs.github.com/en/actions) (Deployment)
+- [Supabase](https://supabase.com/) (Backend)
 - [Docker](https://www.docker.com/) (Deployment)
 - [GitHub](https://www.github.com/) (Development & PM)
+- ~[Deno](https:/deno.land) (modern TS Runtime)~
+- ~[Hono Framework mit Zod-OpenAPI Middleware](https://www.npmjs.com/package/@hono/zod-openapi)~
+
 
 
 ## Posts
