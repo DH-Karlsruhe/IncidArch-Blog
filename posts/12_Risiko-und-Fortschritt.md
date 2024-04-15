@@ -1,6 +1,6 @@
 # Update zu unserem Risikomanagement
 
-Wir arbeiten ständig daran, unsere Software sicher und effizient zu entwickeln. Heute möchten wir euch unsere neueste Risikomanagement-Matrix (RMMM) zeigen. Außerdem erklären wir das größte technische Risiko, das wir gefunden haben, und wie wir planen, damit umzugehen.
+Wir arbeiten ständig daran, unsere Software sicher und effizient zu entwickeln. Wir euch unsere Risk Mitigation, Monitoring and Management (RMMM) Tabelle zeigen. Außerdem erklären wir das größte technische Risiko, das wir gefunden haben, und wie wir planen, damit umzugehen.
 
 ## RMMM-Tabelle (Version 1.0)
 
@@ -25,7 +25,7 @@ Für den Fall einer Datenpanne bereiten wir einen Notfallplan vor. Dieser Plan w
 # TODO
 
 ---  
-Letzte Woche: [4. Semester Start _(KW15/24)_](posts/11_4-Semester-Initialisierung.md)
+Letzte Woche: [4. Semester Start _(KW15/24)_](./11_4-Semester-Initialisierung.md)
 
 ---
 
