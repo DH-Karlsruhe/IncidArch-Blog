@@ -38,7 +38,7 @@ Probiert es doch gleich mal aus 😊👇 (ganz unten auf der Seite)
  9. [Neunter Post _(KW50)_](posts/09_Schichten-nach-Kruchten.md)
  10. [Zehnter Post _(KW51)_](posts/10_Semesterabschluss.md)
  11. [4. Semester Start _(KW15/24)_](posts/11_4-Semester-Initialisierung.md)
- 12. [RMMM Tabelle und Fortschritt _(KW16/24)_](posts/RMMM/v1_w12/RMMM.md)
+ 12. [RMMM Tabelle und Fortschritt _(KW16/24)_](posts/12_Risiko-und-Fortschritt.md)
 
 {% include kommentare.html %}
 
