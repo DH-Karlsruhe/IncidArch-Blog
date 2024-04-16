@@ -1,6 +1,6 @@
 # Update zu unserem Risikomanagement
 
-Wir arbeiten ständig daran, unsere Software sicher und effizient zu entwickeln. Heute möchten wir euch unsere neueste Risikomanagement-Matrix (RMMM) zeigen. Außerdem erklären wir das größte technische Risiko, das wir gefunden haben, und wie wir planen, damit umzugehen.
+Wir arbeiten kontinuierlich daran, unsere Software sicherer und effizienter zu gestalten. Heute möchten wir euch unsere neueste Risk Mitigation, Monitoring and Management (RMMM) Tabelle vorstellen und das größte technische Risiko erläutern, das wir identifiziert haben, sowie unsere Pläne, dieses zu adressieren.
 
 ## RMMM-Tabelle (Version 1.0)
 
@@ -10,7 +10,7 @@ Wir arbeiten ständig daran, unsere Software sicher und effizient zu entwickeln.
 
 ### Risikobeschreibung
 
-Das Risiko besteht darin, dass persönliche und wichtige Geschäftsdaten durch Sicherheitslücken gefährdet werden könnten. Da wir strenge Datenschutzgesetze wie die DSGVO einhalten müssen, ist dieses Risiko besonders kritisch.
+Es besteht das Risiko, dass persönliche und wichtige Geschäftsdaten durch Sicherheitslücken gefährdet werden. Da wir uns an strenge Datenschutzgesetze wie die DSGVO halten müssen, ist dieses Risiko besonders ernst zu nehmen.
 
 ### Geplante Strategie zur Risikominderung
 
@@ -37,10 +37,10 @@ Im Frontend ist zudem erstmals die Anmelde-/ und Registrierungs-Logik im Einsatz
 Weitere Entwicklungsstellen sind eine verbesserte Navigation,
 dank angepasster Router-Konfiguration, verbessertes manuelles CSS-Styling und natürlich die Klickstrecke bei der Vorfalls-Erstellung.
 
-Zusammengefasst geht es voran und wir sind zuversichtlich. 🚀
+*Zusammengefasst geht es voran und wir sind zuversichtlich. 🚀*
 
----  
-Letzte Woche: [4. Semester Start _(KW15/24)_](posts/11_4-Semester-Initialisierung.md)
+---
+Letzte Woche: [4. Semester Start _(KW15/24)_](./11_4-Semester-Initialisierung.md)
 
 ---
 
