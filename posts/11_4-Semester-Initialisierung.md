@@ -71,7 +71,7 @@ Komplexere Vorgänge, die womöglich Umsysteme einbeziehen, können nach wie vor
 
 ---  
 Ende letztes Semester: [Zehnter Post _(KW51)_](10_Semesterabschluss.md)  
-Nächste Woche: [...]()
+Nächste Woche: [Update zu unserem Risikomanagement](12_Risiko-und-Fortschritt.md)
 
 ---
 
