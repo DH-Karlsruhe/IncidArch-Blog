@@ -7,7 +7,7 @@
     - [1.1 Zweck](#11-zweck)
     - [1.2 Umfang](#12-umfang)
     - [1.3 Definitionen, Akronyme und Abkürzungen](#13-definitionen-akronyme-und-abkürzungen)
-  - [1.4 Übersicht](#14-übersicht)
+    - [1.4 Übersicht](#14-übersicht)
   - [2. Gesamtbeschreibung](#2-gesamtbeschreibung)
     - [2.1 Vision](#21-vision)
     - [2.2 Use Case Diagram](#22-use-case-diagram)
@@ -25,7 +25,7 @@
       - [4.1.7 Generieren von Berichten über Verbandsbuch-Ereignisse](#417-generieren-von-berichten-über-verbandsbuch-ereignisse)
       - [4.1.8 Verwalten von Benutzerrollen und Rechten im Verbandsbuch-System](#418-verwalten-von-benutzerrollen-und-rechten-im-verbandsbuch-system)
       - [4.1.9 Erhalten von automatischen Benachrichtigungen für schwerwiegende Vorfälle](#419-erhalten-von-automatischen-benachrichtigungen-für-schwerwiegende-vorfälle)
-      - [4.1.10 Erwerben eines Kontingents, um Archivierungen vorzunehmen.](#4110-erwerben-eines-kontingents-um-archivierungen-vorzunehmen)
+      - [4.1.10 Erwerben eines Kontingents, um Archivierungen vorzunehmen](#4110-erwerben-eines-kontingents-um-archivierungen-vorzunehmen)
     - [4.2 Benutzerfreundlichkeit](#42-benutzerfreundlichkeit)
       - [4.2.1 Intuitive Benutzeroberfläche](#421-intuitive-benutzeroberfläche)
     - [4.3 Hohe Verfügbarkeit](#43-hohe-verfügbarkeit)
@@ -48,15 +48,16 @@
     - [4.9 Lizenzanforderungen](#49-lizenzanforderungen)
     - [4.10 Rechtliche, Urheberrechts- und andere Hinweise](#410-rechtliche-urheberrechts--und-andere-hinweise)
     - [4.11 Unterstützende Informationen](#411-unterstützende-informationen)
-  - [5 Logical View](#5-logical-view)
-    - [5.1 Overview](#51-overview)
-    - [5.2 Architecturally Significant Design Packages](#52-architecturally-significant-design-packages)
-  - [6 Process View](#6-process-view)
-  - [7 Deployment View](#7-deployment-view)
-  - [8 Implementation View](#8-implementation-view)
-  - [9 Data View](#9-data-view)
-  - [10 Size and Performance](#10-size-and-performance)
-  - [11 Quality](#11-quality)
+  - [5. Risk Mitigation, Monitoring, and Management (RMMM)](#5-risk-mitigation-monitoring-and-management-rmmm)
+  - [6. Logical View](#6-logical-view)
+    - [6.1 Overview](#61-overview)
+    - [6.2 Architecturally Significant Design Packages](#62-architecturally-significant-design-packages)
+  - [7. Process View](#7-process-view)
+  - [8. Deployment View](#8-deployment-view)
+  - [9. Implementation View](#9-implementation-view)
+  - [10. Data View](#10-data-view)
+  - [11. Size and Performance](#11-size-and-performance)
+  - [12. Quality](#12-quality)
 
 ## 1. Einführung
 
@@ -329,9 +330,35 @@ Die Teammitglieder sind:
 - Alexander Geier
 - Cristiano Gomes
 
-## 5 Logical View
+## 5 Risk Mitigation, Monitoring, and Management (RMMM)
 
-### 5.1 Overview
+### RMMM-Tabelle (Version 1.0)
+
+| Risk ID | Category     | Risk Description                                     | Probability | Impact | Risk Score | Mitigation Strategy                                    | Indicator                    | Contingency Plan                                  | Responsible           | Status   | Last Modified Date |
+|---------|--------------|------------------------------------------------------|-------------|--------|------------|--------------------------------------------------------|-------------------------------|--------------------------------------------------|----------------------|----------|--------------------|
+| T1      | Technisch    | Unzureichende Sicherung sensibler Daten              | Mittel      | Hoch   | 3          | Umfassende Verschlüsselung einführen                   | Häufigkeit von Sicherheitsverletzungen            | Notfallplan bei Datenpannen aktivieren            | IT-Sicherheitsteam   | Offen    | 22.04.2024         |
+| T2      | Technisch    | Performance-Probleme durch viele Nutzer              | Hoch        | Mittel | 2          | Skalierbare Cloud-Infrastruktur nutzen                 | CPU und RAM Auslastung        | Mehr Ressourcen bei Bedarf hinzufügen            | IT-Abteilung         | Offen    | 22.04.2024         |
+| T3      | Betrieblich  | Ausfall kritischer Infrastruktur                     | Niedrig     | Hoch   | 2          | Regelmäßige Wartung und Failover-Systeme               | Systemausfallrate             | Schnelle Wiederherstellungsprozesse aktivieren   | Betriebsteam         | Offen    | 22.04.2024         |
+| T4      | Rechtlich    | Nicht-Einhaltung der Datenschutzgesetze              | Mittel      | Sehr Hoch | 4       | Schulungen zum Datenschutz für alle Mitarbeiter        | Audit-Ergebnisse              | Rechtsberatung und Überarbeitung der Richtlinien | Rechtsabteilung      | Offen    | 22.04.2024         |
+
+### Legende zur RMMM-Tabelle
+
+- **Risk ID**: Eindeutiger Identifikator für das Risiko.
+- **Category**: Kategorie des Risikos, z.B. technisch, organisatorisch.
+- **Risk Description**: Beschreibung des Risikos.
+- **Probability**: Wahrscheinlichkeit des Eintretens (Niedrig, Mittel, Hoch).
+- **Impact**: Auswirkung auf das Projekt bei Eintreten des Risikos (Niedrig, Mittel, Hoch, Sehr Hoch).
+- **Risk Score**: Numerische Bewertung des Gesamtrisikos, kombiniert aus Wahrscheinlichkeit und Auswirkung, auf einer Skala von 1 (niedrig) bis 4 (sehr hoch).
+- **Mitigation Strategy**: Strategie zur Minderung des Risikos.
+- **Indicator**: Kennzahlen oder Indikatoren, die auf das Risiko hinweisen könnten.
+- **Contingency Plan**: Notfallplan, falls das Risiko eintritt.
+- **Responsible**: Verantwortliche Person oder Abteilung.
+- **Status**: Aktueller Status des Risikomanagements.
+- **Last Modified Date**: Datum der letzten Aktualisierung der Risikoinformation.
+
+## 6 Logical View
+
+### 6.1 Overview
 
 Aus logischer Sicht findet in jedem Fall am Frontend zunächst eine Vor-Validierung statt,  
 die anschließend vom Backend legitimiert wird, bevor tatsächliche Änderungen vorgenommen werden.  
@@ -343,18 +370,18 @@ stellt die Application-Layer-Encryption dar, die einer Klartext-Abspeicherung in
 Ein entsprechendes Schlüsselmanagement ist nicht angedacht,  
 der Applikations-Schlüssel wird jedoch mit dem Start des Backend als Umgebungsvariable bzw. Startparameter übergeben.
 
-### 5.2 Architecturally Significant Design Packages
+### 6.2 Architecturally Significant Design Packages
 
 ![Komponentendiagramm](./IncidArch_Komponentdiagramme.svg)
 
-## 6 Process View
+## 7 Process View
 
 Wir setzen auf transaktionelle Abläufe, die von unserem zustandslosen Backend verarbeitet werden.  
 Diese richten sich nach den Use-Cases und sind dort entsprechend in der Ablaufbeschreibung dokumentiert.
 Ein großer Vorteil der zustandslosen Verarbeitung ist die einfache Skalierung,  
 die nicht zuletzt durch die Verwendung von Postgres-Connection-Pools als gestützt wird.
 
-## 7 Deployment View
+## 8 Deployment View
 
 Das Deployment der Apps erfolgt im Fall über die beiden marktführenden App-Stores,
 den Google Play-Store und den Apple App-Store.  
@@ -369,14 +396,14 @@ voraussichtlich über Github Actions oder einen vergleichbaren Automatisierungs-
 Nicht zuletzt wegen bereits existierenden Workflow-Vorlagen.  
 
 
-## 8 Implementation View
+## 9 Implementation View
 
 Im Frontend gehen wird nach dem atomarem Modell vor  
 und versuchen möglichst alle Konstrukte in kleine,  
 wiederverwendbare Teile zu zerlegen.  
 Ähnlich im Backend, hier setzen wir auf Modularität mit der Middleware-zentrierten Architektur.  
 
-## 9 Data View
+## 10 Data View
 
 Das vorläufige ER-Diagramm für unsere verschlüsselte/private Persistierung:
 
@@ -529,7 +556,7 @@ erDiagram
     Statistics ||--|| EncodedStatistics : "stores securly"
 ```
 
-## 10 Size and Performance
+## 11 Size and Performance
 
 Die Größe der Apps spielt eine große Rolle kann bei React Native eine Hürde darstellen.  
 Mit dem in Expo vorkonfigurierten Webpack-Bundler ist jedoch eine ausreichende Komprimierung möglich,  
@@ -542,7 +569,7 @@ testbare Funktionseinheiten unterteilt werden können.
 Der Backend-Code lässt sich in einem open-Beta-Feature von Deno zudem kompilieren,  
 um noch bessere Ergebnisse in der Verarbeitungszeit zu erzielen.
 
-## 11 Quality
+## 12 Quality
 
 Im Sinne einer besseren Qualität setzen wir auf einfache Ausgangsbestimmungen und Eigenarbeit.  
 Wir verwenden nur TypeScript mit den minimal nötigen Bibliotheken,  
