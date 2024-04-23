@@ -22,8 +22,8 @@ Die kompositionierten Komponenten der Screens (Templates) werden größtenteils 
 
 Die eigentlichen Benutzer-Daten werden über `/src/stores/`
 mit dem Supabase-Client aus der PostgresSQL-Datenbank abgerufen und eingelagert (WiP).  
-Werden diese an irgendeiner Stelle in der App benötigt,  
-kann der Store ganz einfach importiert und verwendet werden.  
+Die Stores können an einer beliebigen Stelle in der App eingebunden werden,  
+indem der Store ganz einfach importiert und verwendet wird.  
 
 ## Prettier & ESLint
 
@@ -45,8 +45,10 @@ Das Bild zeigt das aktualisierte UI für das Eintragen eines neuen Unfallbericht
 Hier präsentieren wir das überarbeitete Dashboard mit einer übersichtlichen Darstellung aller Einträge. Die Optimierung des Layouts ermöglicht eine effizientere Navigation und Analyse von Unfalldaten.  
 
 ---  
+
 Letzte Woche: [RMMM Tabelle und Fortschritt _(KW16/24)_](12_Risiko-und-Fortschritt.md)  
 Nächste Woche: [Upcoming]()  
+
 ---
 
 {% include kommentare.html %}
