@@ -20,7 +20,7 @@ denn bekanntlich wird es zuerst schwierig, bevor es einfach aussehen kann.
 [Handout zu unserer Präsentation](./SRS/Handout.md)
 
 ---  
-Letzte Woche: [Neunter Post _(KW50)_](09_Schichten-nach-Kruchten.md)
+Letzte Woche: [Neunter Post _(KW50)_](09_Schichten-nach-Kruchten.md)  
 Nächste Woche: [4. Semester Start _(KW15/24)_](11_4-Semester-Initialisierung.md)
 
 ---
