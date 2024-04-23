@@ -13,16 +13,17 @@ die zudem auf jeder App-Ebene, abgebildet durch die Verzeichnis-Hierachie, eine 
 In dieser werden die unterschiedlichen Pages und deren Header zusammengeführt,
 die für die aktuelle App-Ebene relevant sind.
 
-Die eigentlichen Ansichten (Pages) werden in jeweils eigene Dateien ausgelagert (`form.tsx`, `home.tsx`, `profile.tsx`, etc.) und enthalten die Page.  
+Die eigentlichen Ansichten (Pages) werden in jeweils eigene Dateien ausgelagert (`form.tsx`, `home.tsx`, `profile.tsx`, etc.).  
 In (fast) allen Fällen ist das zugehörige Template in das `/src/screens/`-Verzeichnis ausgelagert,  
 um die Hydration der konkreten Benutzer-Daten von dem unterliegenden App-Aufbau zu trennen.  
+Eine Ausnahme sollte hier lediglich bei neuen Features bestehen.
 
 Die kompositionierten Komponenten der Screens (Templates) werden größtenteils in das `/src/components` ausgelagert.  
 
 Die eigentlichen Benutzer-Daten werden über `/src/stores/`
 mit dem Supabase-Client aus der PostgresSQL-Datenbank abgerufen und eingelagert (WiP).  
 Werden diese an irgendeiner Stelle in der App benötigt,  
-kann der Store ganz einfach importiert und verwendet werden.
+kann der Store ganz einfach importiert und verwendet werden.  
 
 ## Prettier & ESLint
 
