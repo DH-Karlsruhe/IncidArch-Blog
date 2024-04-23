@@ -41,6 +41,7 @@ dank angepasster Router-Konfiguration, verbessertes manuelles CSS-Styling und na
 
 ---
 Letzte Woche: [4. Semester Start _(KW15/24)_](./11_4-Semester-Initialisierung.md)
+Nächste Woche:  [Clean Code 🧹 _(KW17/24)_](./13_CleanCode.md)
 
 ---
 
