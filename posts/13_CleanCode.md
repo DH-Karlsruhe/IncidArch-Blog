@@ -47,7 +47,7 @@ Hier präsentieren wir das überarbeitete Dashboard mit einer übersichtlichen D
 ---  
 
 Letzte Woche: [RMMM Tabelle und Fortschritt _(KW16/24)_](12_Risiko-und-Fortschritt.md)  
-Nächste Woche: [Upcoming]()  
+Nächste Woche: [Testplan](14_Testplan.md)  
 
 ---
 
