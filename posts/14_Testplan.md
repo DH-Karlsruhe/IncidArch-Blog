@@ -18,7 +18,7 @@ Seit unserem letzten Blogbeitrag haben wir bedeutende Fortschritte gemacht:
 ---  
 
 Letzte Woche: [Clean Code _(KW17/24)_](13_CleanCode.md)  
-Nächste Woche: [Upcoming]()  
+Nächste Woche: [Framework migration und Tests](15_Framework-migration-und-Tests.md)  
 
 ---
 
