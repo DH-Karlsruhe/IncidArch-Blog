@@ -39,7 +39,8 @@ Diese Tests helfen uns dabei, die verschiedenen Komponenten und Funktionalitäte
 ---  
 
 Letzte Woche: [Testplan](14_Testplan.md)
-Nächste Woche: [Upcoming]()  
+
+Nächste Woche: [Upcoming]()
 
 ---
 
