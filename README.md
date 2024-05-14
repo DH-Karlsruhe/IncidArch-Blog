@@ -41,6 +41,7 @@ Probiert es doch gleich mal aus 😊👇 (ganz unten auf der Seite)
  12. [RMMM Tabelle und Fortschritt _(KW16/24)_](posts/12_Risiko-und-Fortschritt.md)
  13. [Clean Code 🧹 _(KW17/24)_](posts/13_CleanCode.md)
  14. [Testplan _(KW19/24)_](posts/14_Testplan.md)
+ 15. [Framework Migration und Tests _(KW20/24)_](posts/15_Framework-migration-und-Tests.md)
 
 {% include kommentare.html %}
 
