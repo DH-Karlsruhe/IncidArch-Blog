@@ -42,6 +42,7 @@ Probiert es doch gleich mal aus 😊👇 (ganz unten auf der Seite)
  13. [Clean Code 🧹 _(KW17/24)_](posts/13_CleanCode.md)
  14. [Testplan _(KW19/24)_](posts/14_Testplan.md)
  15. [Framework Migration und Tests _(KW20/24)_](posts/15_Framework-migration-und-Tests.md)
+ 16. [Metriken & Clean Code Ergänzungen  _(KW21/24)_](posts/16_Metriken.md)
 
 {% include kommentare.html %}
 
