@@ -34,10 +34,13 @@ Dabei haben wir folgende Grundsätze synthetisiert, nach denen wir nun Stück f�
    - Im Sinne der losen Kopplung Abstraktionen auf Bibliotheken zu legen.
    - Konkret bedeutet das unter anderem erweiternd zu dem Single-Responsibility-Prinzip, das fetchen von Backend-Informationen auf dedizierte Funktionen mit dem umzulegen, welche widerrum den Zustand der Daten mit `useState` halten, Aktualisierungen mit `useEffect` in dem Kontext der abstrahierten Funktion vornehmen und letztlich nur die sich aktualisierende Referenz auf den Datensatz zurückzugeben, sodass dieser in einem Template verwendet werden kann.
 
+Der zu dem genannten Beispiel zugehörige [Clean-Code-Refactor-Commit](https://github.com/DH-Karlsruhe/IncidArch-FrontEnd/commit/2ace01d56bdd9fd7a8b5105a1ad32741e8748081) ist hier zu finden.  
 
 Premature Optimization und besonders die Optimierung der Entwickler-Erfahrung haben uns im ersten Semester sehr viele, wertvolle Arbeitsstunden gekostet.  
 In diesem Semester haben wir nicht zuletzt durch gemeinsam getroffene Entscheidungen
-unsere agilität verbessert und sind mittlerweile auf einem guten Weg für unser Projekt das Minimum Viable Product, entsprechend unserer geplanten Anforderungen aufzubauen.
+unsere Agilität verbessert und sind mittlerweile auf einem guten Weg für unser Projekt das Minimum Viable Product, entsprechend unserer geplanten Anforderungen aufzubauen.
+
+Vielen Dank für's Lesen!
 
 ---  
 
