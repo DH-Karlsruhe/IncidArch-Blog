@@ -3,9 +3,22 @@
 
 ## Gewählte Metriken
 
-`jest --coverage`
+Um die Qualität und Zuverlässigkeit unseres Codes zu gewährleisten, nutzen wir verschiedene Metriken. Eine der wichtigsten ist die Code Coverage, die wir mit `jest --coverage` messen. Diese Metrik gibt an, wie viel Prozent des Codes durch unsere Tests abgedeckt sind und hilft uns dabei, ungetestete Teile des Codes zu identifizieren und zu verbessern.
 
-und SonarCube?
+![Code Coverage](../images/code_coverage.jpg)
+
+Die Abdeckung umfasst die folgenden Bereiche:
+
+- **Statements**: Misst den Anteil der Code-Anweisungen, die durch Tests abgedeckt sind.
+- **Branches**: Bezieht sich auf die bedingten Verzweigungen (wie if-else) im Code.
+- **Functions**: Deckt die Funktionen und Methoden ab, die getestet wurden.
+- **Lines**: Zählt die tatsächlich ausgeführten Codezeilen während der Tests.
+
+Eine hohe Code Coverage ist ein Indikator für eine solide Testabdeckung und erhöht das Vertrauen in die Stabilität und Wartbarkeit des Codes. Es ist jedoch wichtig zu beachten, dass eine hohe Abdeckung alleine nicht ausreicht. Qualität und Aussagekraft der Tests sind ebenso entscheidend.
+
+Durch die Verwendung von `jest --coverage` stellen wir sicher, dass wir kontinuierlich die Abdeckung überprüfen und gezielt Bereiche verbessern können, die unterdurchschnittlich abgedeckt sind.
+
+---
 
 # Ergänzungen zu Clean Code
 
