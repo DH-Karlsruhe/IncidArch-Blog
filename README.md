@@ -43,6 +43,7 @@ Probiert es doch gleich mal aus 😊👇 (ganz unten auf der Seite)
  14. [Testplan _(KW19/24)_](posts/14_Testplan.md)
  15. [Framework Migration und Tests _(KW20/24)_](posts/15_Framework-migration-und-Tests.md)
  16. [Metriken & Clean Code Ergänzungen  _(KW21/24)_](posts/16_Metriken.md)
+ 17. [CI/CD Pipeline _(KW22/24)_](posts/17-CI-CD-Pipeline.md)
 
 {% include kommentare.html %}
 
