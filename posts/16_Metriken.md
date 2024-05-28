@@ -59,7 +59,7 @@ Vielen Dank für's Lesen!
 
 Letzte Woche: [Framework Migration und Tests](15_Framework-migration-und-Tests.md)
 
-Nächste Woche: [Upcoming]()
+Nächste Woche: [CI/CD Pipeline](17-CI-CD-Pipeline.md)
 
 ---
 
