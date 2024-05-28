@@ -2,7 +2,7 @@
 
 ## Zusammenfassung der Änderungen
 
-In der letzten Woche haben wir einige bedeutende Verbesserungen und Optimierungen an unseren Workflows und der Codebasis vorgenommen. Hier ein kurzer Überblick über die wichtigsten Änderungen:
+In der letzten Woche haben wir einige bedeutende Verbesserungen an unseren Workflows und der Codebasis vorgenommen. Hier ein kurzer Überblick über die wichtigsten Änderungen:
 
 ### CI/CD Workflow
 
@@ -16,8 +16,6 @@ Der Workflow läuft auf einem Ubuntu-Server und umfasst die folgenden Schritte:
 - **Erstellung eines GitHub-Releases**: Die erstellte APK-Datei wird in einem neuen GitHub-Release hochgeladen.
 
 ![Release Build](../images/release-build.png)
-
-# Andere sachen
 
 ---
 
