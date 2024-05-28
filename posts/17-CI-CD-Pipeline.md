@@ -21,7 +21,7 @@ Der Workflow läuft auf einem Ubuntu-Server und umfasst die folgenden Schritte:
 
 ---
 
-Letzte Woche: [Metriken & Clean Code Ergänzungen](16_Metriken.md.md)
+Letzte Woche: [Metriken & Clean Code Ergänzungen](16_Metriken.md)
 
 Nächste Woche: [Upcoming]()
 
