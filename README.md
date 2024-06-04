@@ -44,11 +44,12 @@ Probiert es doch gleich mal aus 😊👇 (ganz unten auf der Seite)
  15. [Framework Migration und Tests _(KW20/24)_](posts/15_Framework-migration-und-Tests.md)
  16. [Metriken & Clean Code Ergänzungen  _(KW21/24)_](posts/16_Metriken.md)
  17. [CI/CD Pipeline _(KW22/24)_](posts/17-CI-CD-Pipeline.md)
+ 18. [Review, Retrospektive & Code-Analyse](posts/18_Review-Retrospektive.md)
 
 {% include kommentare.html %}
 
 
-## _Quicklinks zu den Projekten unserer Kommilitonen_ 
+## _Quicklinks zu den Projekten unserer Kommilitonen_
 
  - <a href="https://github.com/Chrissi-Ruege/HealthKeeper/discussions" target="_blank">HealthKeeper<a/>
  - <a href="https://github.com/dhbw-ka-tinf22b5-dinder/Dinder/discussions/categories/projektblog" target="_blank">Dinder<a/>
