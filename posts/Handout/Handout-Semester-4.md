@@ -217,10 +217,26 @@ Bild des DB-Design
 ![Datenbankdesign](images/db.png)
 
 ## Testing
-@TODO
+Für das Testing in unserem Projekt haben wir Jest als primäres Testing-Framework verwendet. Jest bietet eine einfache Einrichtung, schnelle Ausführung und leistungsstarke Mocking-Funktionen, die es zu einer idealen Wahl für die Entwicklung mit React Native machen.
+
+Ein wesentlicher Bestandteil unserer Teststrategie war das Mocking, um externe Abhängigkeiten und Module zu isolieren. Hierbei kamen sowohl manuelle Mocks als auch automatisches Mocking mit jest.mock zum Einsatz, um das Verhalten von Modulen während der Tests zu steuern und eine kontrollierte Testumgebung zu schaffen.
+
+Da Expo, ein Framework für die Entwicklung von React Native Apps, zusätzliche Herausforderungen für das Testing mit sich brachte, haben wir Expo-Module und APIs, die für unsere Unit-Tests nicht kritisch waren, gemockt. Für Komponenten, die stark von Expo abhängen, wurden die Tests entweder übersprungen oder es wurde auf Integrationstests gesetzt.
+
+Durch die Verwendung von Jest und den strategischen Umgang mit Expo-spezifischen Herausforderungen konnten wir letztlich eine zuverlässige Testumgebung schaffen, die eine kontinuierliche Entwicklung und hohe Codequalität in unserem React Native Projekt gewährleistet.
 
 ## Metriken
-@TODO
+Um die Testabdeckung zu messen, haben wir `jest --coverage` verwendet. Diese Option generiert einen detaillierten Bericht, der zeigt, wie viel des Codes durch Tests abgedeckt ist. Die Abdeckung umfasst Metriken wie Statements, Branches, Functions und Lines. Ein hoher Abdeckungsgrad ist ein Indikator dafür, dass der Großteil des Codes getestet wurde, was zur Stabilität und Zuverlässigkeit des Projekts beiträgt.
+
+Übersicht der generierten Abdeckungsmetrik:
+
+![Test Coverage Overview](images/jest_coverage.png)
+
+Zusätzlich zu Jest haben wir SonarQube verwendet, um die Codequalität weiter zu überwachen und zu verbessern. SonarQube bietet umfassende Einblicke in Code-Smells, Bugs und Sicherheitslücken, die während der Entwicklung eingeführt werden könnten. Es hilft uns, die Codequalität zu verbessern und sicherzustellen, dass unser Code den besten Praktiken entspricht.
+
+Übersicht der SonarQube-Analyse:
+
+![SonarQube Overview](images/sonarqube_coverage.png)
 
 ## CI/CD
 
