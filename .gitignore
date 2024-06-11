@@ -11,4 +11,3 @@ tmp/**
 node_modules
 .sass-cache
 .node_modules
-**/
