@@ -45,7 +45,7 @@ Probiert es doch gleich mal aus 😊👇 (ganz unten auf der Seite)
  16. [Metriken & Clean Code Ergänzungen  _(KW21/24)_](posts/16_Metriken.md)
  17. [CI/CD Pipeline _(KW22/24)_](posts/17-CI-CD-Pipeline.md)
  18. [Review, Retrospektive & Code-Analyse](posts/18_Review-Retrospektive.md)
- 19. [Handout](19_Handout.md)
+ 19. [Handout](posts/19_Handout.md)
 
 {% include kommentare.html %}
 
