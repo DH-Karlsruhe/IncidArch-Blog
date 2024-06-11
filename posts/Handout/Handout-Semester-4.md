@@ -110,7 +110,7 @@ Felix Blank spielte eine zentrale Rolle im Projekt. Er war verantwortlich für d
 Nick Obreiter zeichnete sich durch sein herausragendes Design- und Entwicklungsverständnis aus. Er war maßgeblich an der Gestaltung und Implementierung des Frontends beteiligt, wodurch eine intuitive und ansprechende Benutzeroberfläche geschaffen wurde. Neben seiner technischen Expertise hat Nick auch einen wertvollen Beitrag zum Projektblog geleistet, indem er seine Erfahrungen und Erkenntnisse mit anderen geteilt hat.
 
 ### Cristiano Gomes:
-Cristiano Gomes brachte vielseitige Fähigkeiten und Engagement für das Projekt ein. Er unterstützte aktiv beim Frontend und half bei der Durchführung von Builds und Deployment-Prozessen. Seine Flexibilität und Bereitschaft, sich in verschiedene Aufgabenbereiche einzuarbeiten, trugen wesentlich zum reibungslosen Ablauf des Projekts bei. Zusätzlich zu seinen technischen Aufgaben trug Cristiano auch regelmäßig zum Projektblog bei, indem er seine Gedanken und Erfahrungen reflektierte.
+Cristiano Gomes brachte vielseitige Fähigkeiten und Engagement für das Projekt ein. Er unterstützte aktiv beim Frontend und half bei der Durchführung von Builds und Deployment-Prozessen. Seine Flexibilität und Bereitschaft, sich in verschiedene Aufgabenbereiche einzuarbeiten, haben wesentlich zum reibungslosen Ablauf des Projekts bei getragen. Zusätzlich zu seinen technischen Aufgaben trug Cristiano auch regelmäßig zum Projektblog bei, indem er seine Gedanken und Erfahrungen reflektierte.
 
 ### Alexander Geier:
 Alexander Geier spielte eine wichtige Rolle bei der Sicherstellung der Qualität und Funktionalität des Projekts. Als zuständiger Tester führte er umfangreiche Tests durch, um Fehler zu identifizieren und sicherzustellen, dass die Anwendung den Anforderungen entspricht. Darüber hinaus war Alexander auch für das Sprintmanagement verantwortlich, was die effektive Planung und Koordination der Arbeitsabläufe ermöglichte. 
@@ -201,6 +201,18 @@ Die Hauptprogrammiersprache des Projekts ist TypeScript, die eine statisch typis
 ### Frontend:
 Für das Frontend wird React Native in Verbindung mit Expo verwendet. React Native ermöglicht die Entwicklung von plattformübergreifenden mobilen Anwendungen mit JavaScript und React, während Expo zusätzliche Funktionen und Tools bereitstellt, um den Entwicklungsprozess zu erleichtern.
 
+Teil 1:
+![Benutzeransicht](images/uml1.png)
+
+Teil 2:
+![Benutzeransicht](images/uml2.png)
+
+Gesamt:
+![Benutzeransicht](images/uml.png)
+
+
+
+
 ### Libraries:
 Das Projekt umfasst über 40 Bibliotheken, die eine Vielzahl von Funktionen und Features unterstützen. Viele dieser Bibliotheken sind spezifisch für Expo und bieten Funktionen wie Routing, State Management und UI-Komponenten. Die Einarbeitung in diese Bibliotheken erfordert Zeit, zahlt sich jedoch am Ende aus, da sie die Entwicklung beschleunigen und die Codeorganisation verbessern.
 
@@ -236,8 +248,8 @@ Zusätzlich zu Jest haben wir SonarQube verwendet, um die Codequalität weiter z
 
 Übersicht der SonarQube-Analyse:
 
-![SonarQube Overview](images/sonarqube_coverage.png)
-
+![SonarQube Overview](images/sonarqube_040624.png)
+f
 ## CI/CD
 
 Für die Implementierung der Continuous Integration (CI) und Continuous Deployment (CD) verwenden wir GitHub Actions in Kombination mit Expo Application Service (EAS).
