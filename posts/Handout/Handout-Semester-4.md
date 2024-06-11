@@ -177,8 +177,8 @@ Das Backend wird mit Supabase betrieben, das Frontend ist mit React Native und E
 - **Sprache:** TypeScript
 - **Frontend:** React Native, Expo
 - **Backend:** Supabase
-- **CI/CD:** GitHub Actions, Docker. Expo
-- **Development & PM:** GitHub
+- **CI/CD:** GitHub Actions, Expo
+- **Development & PM:** GitHub, Jira
  
 
 ### Sprache:
@@ -246,10 +246,6 @@ Um die Testabdeckung zu messen, haben wir `jest --coverage` verwendet. Diese Opt
 
 Zusätzlich zu Jest haben wir SonarQube verwendet, um die Codequalität weiter zu überwachen und zu verbessern. SonarQube bietet umfassende Einblicke in Code-Smells, Bugs und Sicherheitslücken, die während der Entwicklung eingeführt werden könnten. Es hilft uns, die Codequalität zu verbessern und sicherzustellen, dass unser Code den besten Praktiken entspricht.
 
-Übersicht der SonarQube-Analyse:
-
-![SonarQube Overview](images/sonarqube_040624.png)
-f
 ## CI/CD
 
 Für die Implementierung der Continuous Integration (CI) und Continuous Deployment (CD) verwenden wir GitHub Actions in Kombination mit Expo Application Service (EAS).
