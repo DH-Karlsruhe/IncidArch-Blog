@@ -116,7 +116,7 @@ um in Zukunft mögliche Maßnahmen treffen zu können.
 
 Letzte Woche: [Neue Woche: Fortschritte und Optimierungen](17-CI-CD-Pipeline.md)
 
-Nächste Woche: [Upcoming]()
+Nächste Woche: [Handout](19_Handout.md)
 
 ---
 
