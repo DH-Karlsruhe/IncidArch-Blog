@@ -5,10 +5,10 @@ Befreien Sie sich von der Last handschriftlich ausgefüllter Unfallberichte und 
 
 | Name        | Rolle                       |
 |-------------|-----------------------------|
-| Felix       | Backend-Entwickler          |
 | Alexander   | Frontend-Entwickler         |
 | Cristiano   | Frontend-Entwickler         |
-| Nick        | Full-Stack-Softwareentwickler|
+| Felix       | Full-Stack-Entwickler       |
+| Nick        | Full-Stack-Entwickler       |
 
 ## Aufwandsstatistiken
 
@@ -16,10 +16,10 @@ Befreien Sie sich von der Last handschriftlich ausgefüllter Unfallberichte und 
 
 | Person           | Hauptbeitrag         | Stunden |
 |------------------|----------------------|---------|
-| Felix Blank      | Backend-Entwicklung  | 44      |
-| Nick Obreiter    | Frontend-Entwicklung | 43      |
 | Alexander Geier  | Projektmanagement    | 30      |
 | Cristiano Gomes  | Qualitätssicherung   | 25      |
+| Felix Blank      | Backend-Entwicklung  | 44      |
+| Nick Obreiter    | Frontend-Entwicklung | 43      |
 
 #### Stunden pro Workflow
 
@@ -38,16 +38,16 @@ Befreien Sie sich von der Last handschriftlich ausgefüllter Unfallberichte und 
 | Planung     | 30      |
 | Umsetzung   | 60      |
 | Testing     | 10      |
-| Dokumentation| 20      |
+| Dokumentation| 20     |
 
 ### Statistiken über die Aufwändungen Semester 2
 
 | Person           | Hauptbeitrag                              | Stunden |
 |------------------|-------------------------------------------|---------|
-| Felix Blank      | Backend-Entwicklung & Projektmanagement   | 70      |
-| Nick Obreiter    | Frontend-Entwicklung                      | 72      |
 | Alexander Geier  | Projektmanagement & Qualitätssicherung    | 30      |
 | Cristiano Gomes  | Frontend & Building                       | 28      |
+| Felix Blank      | Backend-Entwicklung & Projektmanagement   | 70      |
+| Nick Obreiter    | Frontend-Entwicklung                      | 72      |
 
 #### Stunden pro Workflow
 
@@ -75,10 +75,10 @@ Befreien Sie sich von der Last handschriftlich ausgefüllter Unfallberichte und 
 
 | Person           | Gesamtstunden |
 |------------------|---------------|
-| Felix Blank      | 114           |
-| Nick Obreiter    | 115           |
 | Alexander Geier  | 60            |
 | Cristiano Gomes  | 53            |
+| Felix Blank      | 114           |
+| Nick Obreiter    | 115           |
 
 #### Gesamtstunden pro Workflow
 
@@ -105,16 +105,34 @@ Die Frontend-Entwicklung steht im Fokus unserer Arbeit, da das Frontend zu Begin
 **
 
 ### Felix Blank:
-Felix Blank spielte eine zentrale Rolle im Projekt. Er war verantwortlich für die Planung und Umsetzung der Datenbankarchitektur. Seine Expertise in der Backend-Entwicklung ermöglichte die reibungslose Implementierung der Kernfunktionalitäten. Darüber hinaus hat er aktiv am Projektblog teilgenommen, indem er regelmäßig Beiträge verfasst hat, um den Fortschritt und die Erfolge des Teams zu dokumentieren.
+Felix Blank hat eine zentrale Rolle im Projekt gespielt. 
+Er ist für die Planung und Umsetzung der Datenbankarchitektur verantwortlich gewesen.
+Seine Expertise in der Backend-Entwicklung hat uns die Implementierung der Kernfunktionalitäten ermöglicht. Darüber hinaus hat er aktiv am Projektblog teilgenommen,
+indem er regelmäßig Beiträge verfasst hat,
+um den Fortschritt und die Erfolge des Teams zu dokumentieren.
 
 ### Nick Obreiter:
-Nick Obreiter zeichnete sich durch sein herausragendes Design- und Entwicklungsverständnis aus. Er war maßgeblich an der Gestaltung und Implementierung des Frontends beteiligt, wodurch eine intuitive und ansprechende Benutzeroberfläche geschaffen wurde. Neben seiner technischen Expertise hat Nick auch einen wertvollen Beitrag zum Projektblog geleistet, indem er seine Erfahrungen und Erkenntnisse mit anderen geteilt hat.
+Nick Obreiter hat sich durch sein herausragendes Design- und Entwicklungsverständnis ausgezeichnet.
+Er hat maßgeblich an der Gestaltung und Implementierung des Frontends mitgewirkt,
+wodurch eine intuitive und ansprechende Benutzeroberfläche geschaffen werden konnte.
+Neben seiner technischen Expertise hat Nick einen wertvollen Beitrag zum Projektblog geleistet,
+indem er seine Erfahrungen und Erkenntnisse mit anderen geteilt hat.
 
 ### Cristiano Gomes:
-Cristiano Gomes brachte vielseitige Fähigkeiten und Engagement für das Projekt ein. Er unterstützte aktiv beim Frontend und half bei der Durchführung von Builds und Deployment-Prozessen. Seine Flexibilität und Bereitschaft, sich in verschiedene Aufgabenbereiche einzuarbeiten, haben wesentlich zum reibungslosen Ablauf des Projekts bei getragen. Zusätzlich zu seinen technischen Aufgaben trug Cristiano auch regelmäßig zum Projektblog bei, indem er seine Gedanken und Erfahrungen reflektierte.
+Cristiano Gomes hat vielseitige Fähigkeiten und Engagement in das Projekt eingebracht.
+Er hat aktiv beim Entwickeln des Frontends unterstützt
+und die Builds und Deployment-Prozesse verwaltet.
+Seine Flexibilität und Bereitschaft, sich in verschiedene Aufgabenbereiche einzuarbeiten,
+haben wesentlich zum reibungslosen Ablauf des Projekts beigetragen.
+Zusätzlich zu seinen technischen Aufgaben hat Cristiano auch regelmäßig zum Projektblog beigetragen,
+indem er seine Gedanken und Erfahrungen reflektiert hat.
 
 ### Alexander Geier:
-Alexander Geier spielte eine wichtige Rolle bei der Sicherstellung der Qualität und Funktionalität des Projekts. Als zuständiger Tester führte er umfangreiche Tests durch, um Fehler zu identifizieren und sicherzustellen, dass die Anwendung den Anforderungen entspricht. Darüber hinaus war Alexander auch für das Sprintmanagement verantwortlich, was die effektive Planung und Koordination der Arbeitsabläufe ermöglichte. 
+Alexander Geier hat eine wichtige Rolle bei der Sicherstellung der Qualität und Funktionalität des Projekts gespielt.
+Als zuständiger für Tests und Test-Management hat er umfangreiche Tests geplant und durchgeführt,
+um Fehler zu identifizieren und sicherzustellen, dass die Anwendung den Anforderungen entspricht.
+Darüber hinaus ist Alexander auch für das Sprint-Management verantwortlich gewesen,
+was die effektive Planung und Koordination der Arbeitsabläufe ermöglicht hat. 
 
 # Highlights der Demo_v2
 
