@@ -13,6 +13,7 @@ Alle bisherigen Posts werden unten aufgelistet. 👇
 - [Technical Review (Blogpost)](./posts/18_Review-Retrospektive.md)
 - [IncidArch-Repository](https://github.com/DH-Karlsruhe/IncidArch-FrontEnd)
 - [Scrum-Board (Atlassian)](https://incidarch.atlassian.net/jira/software/projects/IA/boards/1)
+- [Abschlusspräsentation](https://github.com/DH-Karlsruhe/IncidArch-Blog/blob/main/Abschlusspr%C3%A4sentation.pdf)
 
 ## Tech Stack
 - [Typescript](https://www.typescriptlang.org/) (als einzige Sprache)
