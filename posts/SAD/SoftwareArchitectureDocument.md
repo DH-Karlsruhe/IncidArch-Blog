@@ -11,7 +11,7 @@
   - [7 Process View](#7-process-view)
   - [8 Deployment View](#8-deployment-view)
   - [9 Implementation View](#9-implementation-view)
-  - [10 Data View](#10-data-view)
+  - [Data View](#data-view)
   - [11 Size and Performance](#11-size-and-performance)
   - [12 Quality](#12-quality)
 
@@ -67,9 +67,11 @@ und versuchen möglichst alle Konstrukte in kleine,
 wiederverwendbare Teile zu zerlegen.  
 Ähnlich im Backend, hier setzen wir auf Modularität mit der Middleware-zentrierten Architektur.  
 
-## 10 Data View
+## Data View
 
-// TODO: Backend-DB-Schema einfügen.
+Für das 
+
+![IncidArch-DB-Scheme](./IncidArchScheme.png)
 
 ## 11 Size and Performance
 
