@@ -5,7 +5,7 @@ Hallöchen 👋
 In Woche 5 haben wir uns etwas mit der eigentlichen Implementierung unseres Incident Archivs befasst.
 Dabei 
 
-Zudem haben wir unsere [Software Requirements Specification](SRS/v2_w4/SoftwareRequirementsSpecification.md) dem Feedback nach angepasst.  
+Zudem haben wir unsere [Software Requirements Specification](SRS/SoftwareRequirementsSpecification.md) dem Feedback nach angepasst.  
 Die Aufwandsschätzung in Story-Points entspricht nun der im Dokument Eingangs erwähnten Skala.  
 
 

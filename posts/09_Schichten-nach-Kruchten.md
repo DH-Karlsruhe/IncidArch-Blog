@@ -2,7 +2,7 @@
 
 Hallo,
 
-entsprechend des 4+1 Schichtenmodells nach Philippe Kruchten haben wir unser [SRS-Dokument](./SRS/v3_w8/SoftwareRequirementsSpecification.md) um die Punkte:  
+entsprechend des 4+1 Schichtenmodells nach Philippe Kruchten haben wir unser [SRS-Dokument](./SRS/SoftwareRequirementsSpecification.md) um die Punkte:  
 "5 Logical View", "6 Process View", "8 Implementation View", "9 Data View", sowie den Punkt "11 Quality" ergänzt.
 
 

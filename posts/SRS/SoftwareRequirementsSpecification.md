@@ -43,8 +43,7 @@
     - [4.8 Schnittstellen](#48-schnittstellen)
       - [4.8.1 Benutzeroberflächen](#481-benutzeroberflächen)
       - [4.8.2 Hardware-Schnittstellen](#482-hardware-schnittstellen)
-      - [4.8.3 Software-Schnittstellen](#483-software-schnittstellen)
-      - [4.8.4 Kommunikationsschnittstellen](#484-kommunikationsschnittstellen)
+      - [4.8.3 Kommunikationsschnittstellen](#483-kommunikationsschnittstellen)
     - [4.9 Lizenzanforderungen](#49-lizenzanforderungen)
     - [4.10 Rechtliche, Urheberrechts- und andere Hinweise](#410-rechtliche-urheberrechts--und-andere-hinweise)
     - [4.11 Unterstützende Informationen](#411-unterstützende-informationen)
@@ -116,26 +115,23 @@ Der Technologie Stack den wir benutzen:
 
 Typescript (als Basis & einzige Sprache)  
 👇  
-Deno (moderne TS Runtime im Backend)  
+Supabase (Datenbank und Backend)
+👇
+Deno (modern TS Runtime für Supabase Edge-Functions)
 👇  
-Hono WebStandard Framework  
-👇  
-Zod-OpenAPI (API & Validierung)  
-🌐  
 React Native (Frontend)  
-☝️  
-Expo (Frontend)  
+👇
+Expo (Frontend)
 
 ---
 
-Github Actions (Deployment)  
-Docker (Deployment)  
-GitHub (Development & PM)  
+Github Actions (CI/CD)  
+Jira (Development & PM)  
 
 ### 2.4 Story-Points (Aufwandschätzung)  
 
 Bei der Aufwandsschätzung verwenden wir folgende Skala: 
-![story point matrix](../../../images/story_point_matrix.png)
+![story point matrix](../../images/story_point_matrix.png)
 
 ## 3. Architectural Goals and Constraints
 
@@ -288,12 +284,7 @@ Die zu implementierenden Benutzeroberflächen sind:
 
 Sind clientseitig entsprechend der React Native Dokumentation zu verwenden.  
 
-#### 4.8.3 Software-Schnittstellen
-
-Werden in der impliziten OpenAPI-Spezifikation des Backends vorgegeben
-und sind über den API-Endpoint des Backends `/doc` abgerufen _(eq. `http://example.com/api/v1/doc`)_.
-
-#### 4.8.4 Kommunikationsschnittstellen
+#### 4.8.3 Kommunikationsschnittstellen
 
 Es wird hauptsächlich das Hyper-Text-Transfer-Protocol (HTTP) verwendet,  
 um die Backend <-> Frontend-Kommunikation zu ermöglichen.  

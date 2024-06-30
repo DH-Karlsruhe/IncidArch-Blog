@@ -4,7 +4,7 @@ In unserem aktuellen Projektupdate möchten wir euch sowohl unseren Testplan vor
 
 ## Testplan
 
-Unser Testplan ist ein wichtiger Bestandteil unseres Qualitätsmanagements und hilft uns sicherzustellen, dass unsere Anwendung zuverlässig und fehlerfrei funktioniert. Wir haben verschiedene Arten von Tests implementiert, darunter Unit-Tests, UI-Tests und End-to-End-Tests. Eine detaillierte Übersicht über unseren Testplan findet ihr [hier](SRS/v4_w4/Testplan.md).
+Unser Testplan ist ein wichtiger Bestandteil unseres Qualitätsmanagements und hilft uns sicherzustellen, dass unsere Anwendung zuverlässig und fehlerfrei funktioniert. Wir haben verschiedene Arten von Tests implementiert, darunter Unit-Tests, UI-Tests und End-to-End-Tests. Eine detaillierte Übersicht über unseren Testplan findet ihr [hier](SRS/Testplan.md).
 
 ## Projektfortschritt
 

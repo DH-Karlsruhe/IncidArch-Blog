@@ -4,7 +4,7 @@ Wir arbeiten kontinuierlich daran, unsere Software sicherer und effizienter zu g
 
 ## RMMM-Tabelle (Version 1.0)
 
-[RMMM Tabelle](SRS/v3_w8/SoftwareRequirementsSpecification.md#5-risk-mitigation-monitoring-and-management-rmmm)
+[RMMM Tabelle](SRS/SoftwareRequirementsSpecification.md#5-risk-mitigation-monitoring-and-management-rmmm)
 
 ## Fokus auf das größte technische Risiko: Unzureichende Sicherung sensibler Daten (T1)
 
