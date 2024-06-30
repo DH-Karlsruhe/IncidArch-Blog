@@ -8,7 +8,7 @@ den [architektonisch bedeutsamen Anforderungen](#architektonisch-bedeutsame-anfo
 ## Architektonisch bedeutsame Anforderungen (ASR)
 
 Unsere architektonisch bedeutsamen Anforderungen sind in der Version 3 unserer  
-[Software Requirement Specification](SRS/v3_w8/SoftwareRequirementsSpecification.md) zu finden. ([Link zu ASR](SRS/v3_w8/architect_signi_req.md))  
+[Software Requirement Specification](SRS/SoftwareRequirementsSpecification.md) zu finden. ([Link zu ASR](ASR/ArchitecturallySignificantRequirement.md))  
 Der Utility-Baum ist dort mit Überschriften und Markdown-Tabellen aufgeführt.
 
 

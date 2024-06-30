@@ -9,7 +9,7 @@ und der Use-Case-Realization-Specification (UCRS) des Rational Unified Process
 im Rahmen unserer Software Requirements Specification (SRS) befasst.
 
 Das aktualisierte Dokumment wird unter dem folgenden Link bereitgestellt:
-- [Software Requirements Specification](SRS/v2_w4/SoftwareRequirementsSpecification.md)
+- [Software Requirements Specification](SRS/SoftwareRequirementsSpecification.md)
 
 ## UML-Diagramme
 
@@ -25,9 +25,9 @@ Teil der dieswöchigen Aufgabenstellung ist es gewesen,
 Sequenzdiagramme zu den Use-Cases hinzuzufügen.  
 Diese haben wir in Mermaid definiert, sodass diese einen einheitlichen Look&Feel erhalten.
 Die Diagramme sind in den folgenden Use-Cases zu finden:
- - [Konto Erstellen](./SRS/v2_w4/use_cases/UC1_Konto_Erstellen.md)
- - [Einloggen](./SRS/v2_w4/use_cases/UC2_Einloggen.md)
- - [Bezahlvorgang](./SRS/v2_w4/use_cases/UC10_Bezahlvorgang.md)
+ - [Konto Erstellen](./SRS/use_cases/UC1_Konto_Erstellen.md)
+ - [Einloggen](./SRS/use_cases/UC2_Einloggen.md)
+ - [Bezahlvorgang](./SRS/use_cases/UC10_Bezahlvorgang.md)
 
 
 ## React Native 

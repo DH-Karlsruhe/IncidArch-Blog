@@ -7,7 +7,7 @@ Alle bisherigen Posts werden unten aufgelistet. 👇
 
 - [Architecturally Significant Requirements (ASR)](./posts/ASR/ArchitecturallySignificantRequirement.md)
 - [Software Architecture Document (SAD)](./posts/SAD/SoftwareArchitectureDocument.md)
-- [Software Requirements Specification (SRS)](./posts/SRS/v4_w4/SoftwareRequirementsSpecification.md)
+- [Software Requirements Specification (SRS)](./posts/SRS/SoftwareRequirementsSpecification.md)
 - [RMMM Risiko evaluation](./posts/RMMM/RiskMitigationMonitoringManagement.md)
 - [CI/CD Setup (Blogpost)](./posts/17-CI-CD-Pipeline.md)
 - [Technical Review (Blogpost)](./posts/18_Review-Retrospektive.md)
