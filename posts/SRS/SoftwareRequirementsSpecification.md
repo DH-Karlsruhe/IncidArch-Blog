@@ -140,11 +140,6 @@ setzen wir bei der Entwicklung auf Eigenentwicklung und vorerst auf Applikation-
 sodass wir stets die Kontrolle über die Datenflüsse haben  
 und nicht zu sehr auf Black-Box-Bibliotheken vertrauen müssen.  
 
-Demnach ergeben sich hier in der Entwicklung und der Planung kleine Änderungen,  
-sodass unser Datenbank-Schemata sich nach der geteilten Verschlüsselungsart richten muss (vgl. [9. Data View](#9-data-view)).  
-Dem Schema ist zu entnehmen, dass wir keine Nutzerdaten im Klartext persistieren möchten,  
-wodurch wir im Falle eines Integritätsbruchs keine Gefahr besteht.  
-
 Im Sinne der Benutzbarkeit und Transparenz setzen wir zudem auf eine konsistente Dokumentation,  
 sowie Best-Practices (aus dem UX-Feld und während der Entwicklung).
 
